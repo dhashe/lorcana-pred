@@ -1,0 +1,603 @@
+---
+title: "Predicting character card ink costs using linear regression in Disney Lorcana"
+author: "David Hashe"
+date: "2025-02-28"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+library(jsonlite)
+library(DBI)
+```
+
+# Predicting card costs
+
+## Card data
+
+```{r}
+# Sourced from lorcana-api.com via bulk download
+cards.df = fromJSON('lorcana_api_cards.json')
+
+char.df = cards.df %>% filter(Type == "Character")
+
+char.df$StrengthPlusWillpower = char.df$Strength + char.df$Willpower
+char.df = char.df %>% rename(Keywords = Abilities)
+
+# Normalize the data somewhat.
+char.df$Keywords[char.df$Keywords == ""] = NA
+char.df$Lore[is.na(char.df$Lore)] = 0
+char.df$Keywords = gsub("\\+", "", char.df$Keywords)
+
+# Split the keywords into their own columns and fix data errors.
+
+# Disclosure: this function was written by AI.
+# It just widens the dataframe with a column for each keyword ability.
+transform_keywords = function(df, keyword_column) {
+  # Get the raw data as a character vector
+  raw_text = pull(df, {{keyword_column}})
+  
+  # Split all keywords into a long format data frame
+  long_df = tibble(
+    row_id = rep(seq_along(raw_text), times = lengths(str_split(raw_text, ","))),
+    keyword = unlist(str_split(raw_text, ",")) %>% str_trim()
+  )
+  
+  # Extract base keyword names and numbers
+  parsed_df = long_df %>%
+    mutate(
+      number = as.numeric(str_extract(keyword, "\\d+$")),
+      base_keyword = str_replace(keyword, "\\s*\\d+$", "") %>% str_trim()
+    )
+  
+  # For each row_id and base_keyword, get the maximum number (or 1 if no number)
+  result_df = parsed_df %>%
+    group_by(row_id, base_keyword) %>%
+    summarize(
+      value = if(all(is.na(number))) 1 else max(number, na.rm = TRUE),
+      .groups = "drop"
+    )
+  
+  # Pivot to wide format
+  wide_df = result_df %>%
+    pivot_wider(
+      id_cols = row_id,
+      names_from = base_keyword,
+      values_from = value,
+      values_fill = 0,
+      names_prefix = "keyword_"
+    )
+  
+  # Ensure row order matches original dataframe
+  wide_df = wide_df %>%
+    arrange(row_id) %>%
+    select(-row_id)
+  
+  # Combine with original dataframe
+  bind_cols(df, wide_df)
+}
+
+char.df = transform_keywords(char.df, Keywords)
+
+# This ID was typo'd
+char.df$Unique_ID[char.df$Unique == "URs-190"] = "URS-190"
+
+data.fixes.df = tibble(Unique_ID = character(), Column = character(), Value = numeric())
+data.fixes.df = bind_rows(data.fixes.df,
+  # These cards were mislabeled. Their Body_Text mentions keywords that they don't actually have.
+  tibble(Unique_ID = "INK-081", Column = "keyword_Shift", Value = 0),
+  tibble(Unique_ID = "SSK-106", Column = "keyword_Shift", Value = 0),
+  tibble(Unique_ID = "ROF-048", Column = "keyword_Rush", Value = 0),
+  tibble(Unique_ID = "URS-042", Column = "keyword_Rush", Value = 0),
+  tibble(Unique_ID = "INK-009", Column = "keyword_Bodyguard", Value = 0),
+  tibble(Unique_ID = "INK-178", Column = "keyword_Bodyguard", Value = 0),
+  tibble(Unique_ID = "SSK-189", Column = "keyword_Bodyguard", Value = 0),
+  tibble(Unique_ID = "URS-012", Column = "keyword_Bodyguard", Value = 0),
+  tibble(Unique_ID = "URS-022", Column = "keyword_Bodyguard", Value = 0),
+  tibble(Unique_ID = "ROF-137", Column = "keyword_Support", Value = 0),
+  tibble(Unique_ID = "URS-142", Column = "keyword_Support", Value = 0),
+  tibble(Unique_ID = "INK-105", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "INK-138", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "INK-140", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "INK-154", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "INK-179", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "ROF-144", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "ROF-184", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "ROF-187", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "SSK-124", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "SSK-186", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "SSK-191", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "TFC-053", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "TFC-107", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "TFC-157", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "TFC-177", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "TFC-189", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "URS-076", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "URS-160", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "URS-185", Column = "keyword_Evasive", Value = 0),
+  tibble(Unique_ID = "ROF-041", Column = "keyword_Challenger", Value = 0),
+  tibble(Unique_ID = "ROF-050", Column = "keyword_Challenger", Value = 0),
+  tibble(Unique_ID = "SSK-180", Column = "keyword_Challenger", Value = 0),
+  tibble(Unique_ID = "SSK-194", Column = "keyword_Challenger", Value = 0),
+  tibble(Unique_ID = "TFC-058", Column = "keyword_Challenger", Value = 0),
+  tibble(Unique_ID = "URS-040", Column = "keyword_Challenger", Value = 0),
+  tibble(Unique_ID = "URS-042", Column = "keyword_Challenger", Value = 0),
+  tibble(Unique_ID = "URS-188", Column = "keyword_Challenger", Value = 0),
+  tibble(Unique_ID = "URS-190", Column = "keyword_Challenger", Value = 0),
+  tibble(Unique_ID = "INK-089", Column = "keyword_Ward", Value = 0),
+  tibble(Unique_ID = "ROF-155", Column = "keyword_Ward", Value = 0),
+  tibble(Unique_ID = "TFC-139", Column = "keyword_Ward", Value = 0),
+  tibble(Unique_ID = "URS-088", Column = "keyword_Ward", Value = 0),
+  tibble(Unique_ID = "URS-153", Column = "keyword_Ward", Value = 0),
+  tibble(Unique_ID = "INK-078", Column = "keyword_Reckless", Value = 0),
+  tibble(Unique_ID = "ROF-143", Column = "keyword_Reckless", Value = 0),
+  tibble(Unique_ID = "TFC-080", Column = "keyword_Reckless", Value = 0),
+  tibble(Unique_ID = "TFC-082", Column = "keyword_Reckless", Value = 0),
+  tibble(Unique_ID = "TFC-107", Column = "keyword_Reckless", Value = 0),
+  tibble(Unique_ID = "URS-077", Column = "keyword_Reckless", Value = 0),
+  tibble(Unique_ID = "INK-176", Column = "keyword_Resist", Value = 0),
+  tibble(Unique_ID = "INK-178", Column = "keyword_Resist", Value = 0),
+  tibble(Unique_ID = "ROF-142", Column = "keyword_Resist", Value = 0),
+  tibble(Unique_ID = "ROF-155", Column = "keyword_Resist", Value = 0),
+  tibble(Unique_ID = "ROF-188", Column = "keyword_Resist", Value = 0),
+  tibble(Unique_ID = "SSK-142", Column = "keyword_Resist", Value = 0),
+  tibble(Unique_ID = "SSK-149", Column = "keyword_Resist", Value = 0),
+  tibble(Unique_ID = "SSK-183", Column = "keyword_Resist", Value = 0),
+  tibble(Unique_ID = "SSK-186", Column = "keyword_Resist", Value = 0),
+  tibble(Unique_ID = "SSK-194", Column = "keyword_Resist", Value = 0),
+  tibble(Unique_ID = "URS-152", Column = "keyword_Resist", Value = 0),
+  
+  # These cards were missing keywords that they do have
+  tibble(Unique_ID = "AZS-003", Column = "keyword_Support", Value = 1),
+  tibble(Unique_ID = "AZS-009", Column = "keyword_Shift", Value = 3),
+  tibble(Unique_ID = "AZS-009", Column = "keyword_Bodyguard", Value = 1),
+  tibble(Unique_ID = "AZS-014", Column = "keyword_Shift", Value = 5),
+  tibble(Unique_ID = "AZS-019", Column = "keyword_Support", Value = 1),
+  tibble(Unique_ID = "AZS-025", Column = "keyword_Bodyguard", Value = 1),
+  tibble(Unique_ID = "AZS-037", Column = "keyword_Challenger", Value = 1),
+  tibble(Unique_ID = "AZS-039", Column = "keyword_Challenger", Value = 2),
+  tibble(Unique_ID = "AZS-052", Column = "keyword_Shift", Value = 7),
+  tibble(Unique_ID = "AZS-084", Column = "keyword_Shift", Value = 5),
+  tibble(Unique_ID = "AZS-121", Column = "keyword_Shift", Value = 5),
+  tibble(Unique_ID = "AZS-124", Column = "keyword_Evasive", Value = 1),
+  tibble(Unique_ID = "AZS-150", Column = "keyword_Shift", Value = 1),
+  tibble(Unique_ID = "AZS-160", Column = "keyword_Shift", Value = 6),
+  tibble(Unique_ID = "SSK-111", Column = "keyword_Evasive", Value = 1)
+)
+
+# Apply the updates for each column that is affected
+for (col in unique(data.fixes.df$Column)) {
+  data.fixes.for.col.df = data.fixes.df %>% filter(Column == col)
+  char.df[[col]][match(data.fixes.for.col.df$Unique_ID, char.df$Unique_ID)] = data.fixes.for.col.df$Value
+}
+
+# This card is just missing half of its body text. I didn't fix most of these
+# because it isn't core to my analysis, unlike the keyword abilities.
+char.df$Body_Text[char.df$Unique_ID == "AZS-085"] = "Look Innocent - This character enters play exerted.\nCan't Take a Joke? - While this character is exerted, each opposing player can't gain lore unless one of their characters has challenged this turn."
+
+# These cards have Shift, but with a bespoke cost involving discarding cards.
+# I only want to model Shift keywords where the cost is ink.
+char.df$keyword_Shift[grepl("Shift: Discard", char.df$Body_Text)] = 0
+
+# Rewrite the keywords column now that I've fixed the data, since it's more
+# readable to display a single column sometimes.
+char.df$Keywords = with(char.df,
+    paste(
+      ifelse(keyword_Support, "Support, ", ""),
+      ifelse(keyword_Shift, paste("Shift ", keyword_Shift, ", ", sep=""), ""),
+      ifelse(keyword_Evasive, "Evasive, ", ""),
+      ifelse(keyword_Challenger, paste("Challenger ", keyword_Challenger, ", ", sep=""), ""),
+      ifelse(keyword_Rush, "Rush, ", ""),
+      ifelse(keyword_Ward, "Ward, ", ""),
+      ifelse(keyword_Resist, paste("Resist ", keyword_Resist, ", ", sep=""), ""),
+      ifelse(keyword_Bodyguard, "Bodyguard, ", ""),
+      ifelse(keyword_Singer, paste("Singer", keyword_Singer, ", ", sep=""), ""),
+      ifelse(keyword_Reckless, "Reckless, ", ""),
+      sep=""
+    )
+)
+
+# The power of Shift and Singer is how much the value differs from the cards
+# cost, rather than the raw value.
+char.df = char.df %>% mutate(keyword_Shift = if_else(keyword_Shift == 0, 0, Cost - keyword_Shift))
+char.df = char.df %>% mutate(keyword_Singer = if_else(keyword_Singer == 0, 0, keyword_Singer - Cost))
+
+# The power of Support is the Strength of the card
+char.df = char.df %>% mutate(keyword_Support = if_else(keyword_Support == 0, 0, Strength))
+
+char.df$Has_Keywords = nchar(char.df$Keywords) > 0
+```
+
+```{r}
+char.df %>% mutate(Unique_ID = Unique_ID, Body_Text = Body_Text, .keep = "none") %>% write_csv("input_to_bespoke_abilities.csv")
+```
+
+```{r}
+# Add flag for whether the card has any bespoke abilities.
+
+bespoke.abilities.df = read.csv("bespoke_abilities.csv")
+bespoke.abilities.df = bespoke.abilities.df %>% select(-Body_Text)
+
+char.df = char.df %>% left_join(bespoke.abilities.df, join_by(Unique_ID == Unique_ID))
+
+# This was thrown off by using a weird symbol in the body text
+char.df$Has_Bespoke[char.df$Unique_ID == "AZS-137"] = 0
+
+# I'm not sure why these ones were wrong but they are. This time it's my fault because I wrote the script.
+char.df$Has_Bespoke[char.df$Unique_ID == "URS-180"] = 0
+char.df$Has_Bespoke[char.df$Unique_ID == "TFC-174"] = 0
+```
+
+# Modeling basic cards
+
+```{r}
+basic.char.df = char.df %>% filter(!Has_Keywords, !Has_Bespoke)
+
+basic.char.model = lm(Cost ~ StrengthPlusWillpower + Lore, data=basic.char.df)
+basic.char.df$res = residuals(basic.char.model)
+summary(basic.char.model)
+```
+
+```{r}
+nrow(basic.char.df %>% filter(abs(res) < 0.5)) / nrow(basic.char.df)
+```
+
+```{r}
+basic.char.df %>% mutate(Rounded_Pred = -1.07 + 0.48 * Strength + 0.48 * Willpower + 0.62 * Lore, Residual = Cost - Rounded_Pred) %>% filter(abs(Residual) < 0.5) %>% nrow / nrow(basic.char.df)
+
+basic.char.df %>% mutate(Rounded_Pred = -1.1 + 0.5 * Strength + 0.5 * Willpower + 0.6 * Lore, Residual = Cost - Rounded_Pred) %>% filter(abs(Residual) < 0.5) %>% nrow / nrow(basic.char.df)
+
+basic.char.df %>% mutate(Rounded_Pred = -1.0 + 0.5 * Strength + 0.5 * Willpower + 0.5 * Lore, Residual = Cost - Rounded_Pred) %>% filter(abs(Residual) < 0.5) %>% nrow / nrow(basic.char.df)
+```
+
+```{r}
+coef_list = list()
+for (set in 1:6) {
+  basic.char.held.out.model = lm(Cost ~ StrengthPlusWillpower + Lore, data=basic.char.df %>% filter(Set_Num != set))
+  held.out.set.df = basic.char.df %>% filter(Set_Num == set)
+  
+  coef_list[[set]] = coef(basic.char.held.out.model)
+  coef_df = bind_rows(coef_list, .id = "Iteration") 
+  
+  held.out.residuals = held.out.set.df$Cost - predict(basic.char.held.out.model, held.out.set.df)
+  print(length(held.out.residuals[abs(held.out.residuals) < 0.5]) / length(held.out.residuals))
+}
+
+print(coef_df)
+```
+
+```{r}
+coef_df = list()
+for (set in 1:6) {
+  basic.char.held.out.model = lm(Cost ~ StrengthPlusWillpower + Inkable + Lore, data=basic.char.df %>% filter(Set_Num != set))
+  held.out.set.df = basic.char.df %>% filter(Set_Num == set)
+  
+  coef_list[[set]] = coef(basic.char.held.out.model)
+  coef_df = bind_rows(coef_list, .id = "Iteration") 
+  
+  held.out.residuals = held.out.set.df$Cost - predict(basic.char.held.out.model, held.out.set.df)
+  print(length(held.out.residuals[abs(held.out.residuals) < 0.5]) / length(held.out.residuals))
+}
+
+print(coef_df)
+```
+
+```{r}
+summary(lm(Cost ~ Strength + Willpower + Lore, data=basic.char.df))
+```
+
+```{r}
+ggplot(basic.char.df, aes(x = seq_along(res), 
+                          y = sort(res))) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  labs(title = "Residuals for Basic Cards", 
+       x = "Order", 
+       y = "Residual (Ink cost)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+```{r}
+basic.char.df %>% slice_min(res, n=4) %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, res)
+```
+
+```{r}
+basic.char.df %>% slice_max(res, n=2) %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, res)
+
+basic.char.df %>% filter(Cost == 3, Lore == 2) %>% slice_max(order_by = Strength + Willpower, n = 3) %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, res)
+```
+
+# Modeling kwonly cards
+
+```{r}
+kwonly.char.df = char.df %>% filter(!Has_Bespoke, Has_Keywords)
+
+kwonly.char.df$Basic_Cost = predict.lm(basic.char.model, kwonly.char.df)
+kwonly.char.df$Keyword_Cost = kwonly.char.df$Cost - kwonly.char.df$Basic_Cost
+
+kwonly.char.model = lm(Keyword_Cost ~ 0 + keyword_Bodyguard + keyword_Shift + keyword_Singer + keyword_Support + keyword_Evasive + keyword_Rush + keyword_Challenger + keyword_Ward + keyword_Reckless + keyword_Resist, data=kwonly.char.df)
+kwonly.char.df$res = residuals(kwonly.char.model)
+
+summary(kwonly.char.model)
+```
+
+```{r}
+summary(lm(Keyword_Cost ~ 0 + as.numeric(Inkable) + keyword_Bodyguard + keyword_Shift + keyword_Singer + keyword_Support + keyword_Evasive + keyword_Rush + keyword_Challenger + keyword_Ward + keyword_Reckless + keyword_Resist, data=kwonly.char.df))
+```
+
+```{r}
+summary(lm(Keyword_Cost ~ keyword_Bodyguard + keyword_Shift + keyword_Singer + keyword_Support + keyword_Evasive + keyword_Rush + keyword_Challenger + keyword_Ward + keyword_Reckless + keyword_Resist, data=kwonly.char.df))
+```
+
+```{r}
+ggplot(kwonly.char.df, aes(x = seq_along(res), 
+                          y = sort(res))) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  labs(title = "Residuals for Keyword-Only Cards", 
+       x = "Order", 
+       y = "Residual (Ink cost)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+```{r}
+nrow(kwonly.char.df %>% filter(abs(res) < 0.5)) / nrow(kwonly.char.df)
+```
+
+```{r}
+coef_df = list()
+for (set in 1:6) {
+  kwonly.char.held.out.model = lm(Keyword_Cost ~ 0 + keyword_Bodyguard + keyword_Shift + keyword_Singer + keyword_Support + keyword_Evasive + keyword_Rush + keyword_Challenger + keyword_Ward + keyword_Reckless + keyword_Resist, data=kwonly.char.df %>% filter(Set_Num != set))
+    
+  held.out.set.df = kwonly.char.df %>% filter(Set_Num == set)
+  
+  coef_list[[set]] = coef(kwonly.char.held.out.model)
+  coef_df = bind_rows(coef_list, .id = "Iteration") 
+  
+  held.out.residuals = held.out.set.df$Keyword_Cost - predict(kwonly.char.model, held.out.set.df)
+  print(length(held.out.residuals[abs(held.out.residuals) < 0.5]) / length(held.out.residuals))
+}
+
+print(coef_df)
+```
+
+```{r}
+kwonly.char.df %>% slice_min(res, n=2) %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, Keywords, res)
+```
+
+```{r}
+kwonly.char.df %>% slice_max(res, n=2) %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, Keywords, res)
+```
+
+# Not modeling bespoke cards
+
+```{r}
+bespoke.char.df = char.df %>% filter(Has_Bespoke == 1)
+
+bespoke.char.df$Basic_Cost = predict.lm(basic.char.model, bespoke.char.df)
+bespoke.char.df$Keyword_Cost = predict.lm(kwonly.char.model, bespoke.char.df)
+
+bespoke.char.df$Bespoke_Cost = bespoke.char.df$Cost - bespoke.char.df$Keyword_Cost - bespoke.char.df$Basic_Cost
+
+# most beneficial
+bespoke.char.df %>% filter(Bespoke_Cost >= 2.1) %>% arrange(desc(Bespoke_Cost)) %>% select(Name, Body_Text, Bespoke_Cost)
+
+# most harmful
+bespoke.char.df %>% filter(Bespoke_Cost <= -0.9) %>% arrange(Bespoke_Cost) %>% select(Name, Body_Text, Bespoke_Cost)
+
+```
+
+```{r}
+bespoke.char.df %>% filter(Unique_ID %in% c("TFC-042", "INK-044")) %>% select(Name, Body_Text, Bespoke_Cost)
+```
+
+```{r}
+ggplot(bespoke.char.df, aes(x = seq_along(Bespoke_Cost), 
+                          y = sort(Bespoke_Cost))) +
+  geom_point() +
+  geom_hline(yintercept = 0, linetype = "dashed") +
+  labs(title = "Bespoke Ability Costs for Bespoke Cards", 
+       x = "Order", 
+       y = "Bespoke Cost (Ink cost)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+# Analyzing meta-relevant cards
+
+## Meta data
+
+```{r}
+# Sourced from inkdecks.com via Python web-scraper
+meta.db = dbConnect(RSQLite::SQLite(), "inkdecks_meta_cards.db")
+raw.meta.df = dbGetQuery(meta.db, 'SELECT * FROM key_cards')
+dbDisconnect(meta.db)
+
+set.trans.df = data.frame(inkdecks_set = c("TFC", "ROTF", "ITI", "URSU", "SHM", "SEA"), lorcanaapi_set = c("TFC", "ROF", "INK", "URS", "SSK", "AZS"))
+
+raw.meta.df = raw.meta.df %>%
+  left_join(set.trans.df, join_by(set_code == inkdecks_set)) %>%
+  mutate(Unique_ID = sprintf("%s-%03d", lorcanaapi_set, as.integer(card_number)))
+
+meta.df = raw.meta.df %>% select(Unique_ID) %>% unique()
+```
+
+## Meta basic cards
+
+```{r}
+basic.meta.df = basic.char.df %>% inner_join(meta.df, join_by(Unique_ID == Unique_ID))
+
+basic.meta.df %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, res) %>% arrange(desc(res))
+
+basic.non.df = basic.char.df %>% anti_join(basic.meta.df, by = "Unique_ID")
+```
+
+```{r}
+kruskal.test(list(basic.meta.df$res, basic.non.df$res))
+mean(basic.meta.df$res)
+mean(basic.non.df$res)
+```
+
+```{r}
+basic.meta.ink.counts.df = basic.meta.df %>% group_by(Inkable) %>% summarize(count = n())
+basic.non.ink.counts.df = basic.non.df %>% group_by(Inkable) %>% summarize(count = n())
+basic.contingency.table = t(matrix(c(basic.meta.ink.counts.df$count, basic.non.ink.counts.df$count), nrow=2))
+
+print(basic.contingency.table)
+
+fisher.test(basic.contingency.table)
+```
+
+## Meta kwonly cards
+
+```{r}
+kwonly.meta.df = kwonly.char.df %>% inner_join(meta.df, join_by(Unique_ID == Unique_ID))
+
+kwonly.meta.df %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, Keywords, res) %>% arrange(desc(res))
+
+kwonly.non.df = kwonly.char.df %>% anti_join(kwonly.meta.df, by = "Unique_ID")
+```
+
+```{r}
+kwonly.meta.df %>% filter(keyword_Reckless == 1) %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, Keywords) 
+```
+
+```{r}
+kwonly.char.df %>% filter(Color == "Ruby", Strength >= 5, keyword_Rush == 1) %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, Keywords) 
+```
+
+```{r}
+kwonly.char.df %>% mutate(res = residuals(kwonly.char.model)) %>% filter(keyword_Reckless == 1) %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, Keywords, res) %>% arrange(desc(res))
+```
+
+```{r}
+kruskal.test(list(kwonly.meta.df$res, kwonly.non.df$res))
+mean(kwonly.meta.df$res)
+mean(kwonly.non.df$res)
+```
+
+```{r}
+kwonly.meta.ink.counts.df = kwonly.meta.df %>% mutate(Inkable = factor(Inkable, levels = c(FALSE, TRUE))) %>% group_by(Inkable, .drop = FALSE) %>% summarize(count = n())
+kwonly.non.ink.counts.df = kwonly.non.df %>% group_by(Inkable) %>% summarize(count = n())
+kwonly.contingency.table = t(matrix(c(kwonly.meta.ink.counts.df$count, kwonly.non.ink.counts.df$count), nrow=2))
+
+print(kwonly.contingency.table)
+
+fisher.test(kwonly.contingency.table)
+```
+
+## Meta bespoke cards
+
+```{r}
+bespoke.meta.df = bespoke.char.df %>% inner_join(meta.df, join_by(Unique_ID == Unique_ID))
+
+bespoke.meta.df %>% select(Name, Cost, Strength, Willpower, Inkable, Lore, Keywords, Bespoke_Cost) %>% arrange(desc(Bespoke_Cost))
+
+bespoke.non.df = bespoke.char.df %>% anti_join(bespoke.meta.df, by = "Unique_ID")
+```
+
+```{r}
+kruskal.test(list(bespoke.meta.df$Bespoke_Cost, bespoke.non.df$Bespoke_Cost))
+mean(bespoke.meta.df$Bespoke_Cost)
+mean(bespoke.non.df$Bespoke_Cost)
+```
+
+```{r}
+bespoke.meta.ink.counts.df = bespoke.meta.df %>% group_by(Inkable) %>% summarize(count = n())
+bespoke.non.ink.counts.df = bespoke.non.df %>% group_by(Inkable) %>% summarize(count = n())
+bespoke.contingency.table = t(matrix(c(bespoke.meta.ink.counts.df$count, bespoke.non.ink.counts.df$count), nrow=2))
+
+print(bespoke.contingency.table)
+
+fisher.test(bespoke.contingency.table)
+```
+
+# Miscellaneous analysis
+
+## Vanilla curves for different ink types
+
+```{r}
+basic.char.df %>% group_by(Color) %>% summarize(mean(res)) %>% arrange(`mean(res)`)
+```
+
+```{r}
+kruskal.test(res ~ Color, data = basic.char.df)
+```
+
+## Rarities and Residuals
+
+```{r}
+basic.char.df %>% group_by(Rarity) %>% summarize(mean(res))
+kruskal.test(res ~ Rarity, data = basic.char.df)
+
+kwonly.char.df %>% group_by(Rarity) %>% summarize(mean(res))
+kruskal.test(res ~ Rarity, data = kwonly.char.df)
+```
+
+## Rarities and Complexity
+
+```{r}
+basic.char.df = basic.char.df %>% mutate(Rarity = factor(Rarity, levels = c("Common", "Uncommon", "Rare", "Super Rare", "Legendary")))
+kwonly.char.df = kwonly.char.df %>% mutate(Rarity = factor(Rarity, levels = c("Common", "Uncommon", "Rare", "Super Rare", "Legendary")))
+bespoke.char.df = bespoke.char.df %>% mutate(Rarity = factor(Rarity, levels = c("Common", "Uncommon", "Rare", "Super Rare", "Legendary")))
+
+basic.rare.counts.df = basic.char.df %>% group_by(Rarity, .drop = FALSE) %>% summarize(count = n())
+kwonly.rare.counts.df = kwonly.char.df %>% group_by(Rarity, .drop = FALSE) %>% summarize(count = n())
+bespoke.rare.counts.df = bespoke.char.df %>% group_by(Rarity, .drop = FALSE) %>% summarize(count = n())
+rare.contingency.table = t(matrix(c(basic.rare.counts.df$count, kwonly.rare.counts.df$count, bespoke.rare.counts.df$count), nrow=5))
+
+print(rare.contingency.table)
+
+# The exact test has high memory requirements, so we use simulation instead.
+fisher.test(rare.contingency.table, simulate.p.value = TRUE, B = 1e5)
+```
+
+## Is there power creep yet?
+
+```{r}
+power.creep.df = tibble(Set_Num = numeric(), res = numeric())
+power.creep.df = bind_rows(power.creep.df,
+  tibble(Set_Num = basic.char.df$Set_Num, res = basic.char.df$res),
+  tibble(Set_Num = kwonly.char.df$Set_Num, res = kwonly.char.df$res),
+)
+
+summary(lm(res ~ Set_Num, data = power.creep.df))
+```
+
+# Discussion
+
+## Why is Reckless priced as a buff?
+
+## What is Inkability for?
+
+## When are single-card models useful?
+
+# Future Work
+
+```{r}
+basic.char.df$is_meta = basic.char.df$Unique_ID %in% meta.df$Unique_ID
+kwonly.char.df$is_meta = kwonly.char.df$Unique_ID %in% meta.df$Unique_ID
+bespoke.char.df$is_meta = bespoke.char.df$Unique_ID %in% meta.df$Unique_ID
+
+write_csv(raw.meta.df, file = "lorcana_meta_cards.csv")
+
+all.char.df = bespoke.char.df %>% mutate(res = NA) %>% as_tibble
+all.char.df = bind_rows(all.char.df,
+  kwonly.char.df %>% mutate(Keyword_Cost = Keyword_Cost - res, Bespoke_Cost = 0) %>% as_tibble,
+  basic.char.df %>% mutate(Basic_Cost = Cost - res, Keyword_Cost = 0, Bespoke_Cost = 0) %>% as_tibble
+) %>% arrange(desc(row_number()))
+
+# Let's just check this to be sure
+print(all(with(all.char.df, abs(Cost - (Basic_Cost + Keyword_Cost + Bespoke_Cost + ifelse(is.na(res), 0, res))) < 1e-6)))
+
+write_csv(all.char.df, file = "lorcana_all_char.csv")
+```

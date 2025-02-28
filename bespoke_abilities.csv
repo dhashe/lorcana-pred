@@ -1,0 +1,1389 @@
+Unique_ID,Body_Text,Has_Bespoke
+AZS-001,"Well Spotted: During your turn, whenever a card is put into your inkwell, chosen opposing character gets -1 {s} until the start of your next turn.",1
+AZS-002,"NO PLACE I'D RATHER BE - At the start of your turn, if this card is in your discard, you may play her and she enters play exerted.",1
+AZS-003,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)
+We're Pirates, You See: Whenever this character quests, you may pay 1 {i} less for the next Pirate character you play this turn.",1
+AZS-004,NA,0
+AZS-005,NA,0
+AZS-006,"DALE'S PARTNER - When you play this character, chosen character gets +1 {l} this turn.",1
+AZS-007,CHIP'S PARTNER - This character enters play exerted unless you have a character named Chip in play.,1
+AZS-008,"SHOWING OFF - While you have a character named Nani in play, this character gets +2 {l}.",1
+AZS-009,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Prince Naveen.)
+Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",0
+AZS-010,NA,0
+AZS-011,"YOU LIKE GAZELLE TOO? - While you have a character named Gazelle in play, this character gains Singer 6. (This character counts as cost 6 to sing songs.)",1
+AZS-012,"THE VALUE OF FRIENDSHIP - While you have a character named Dale in play, this character gains Support. (Whenever they quest, you may add their {s} to another chosen character's {s} this turn.)",1
+AZS-013,NA,0
+AZS-014,"Shift 5 (You may pay 5 {i} to play this on topo of one of your characters named Chip or Dale.)
+(This character counts as being named both Chip and Dale.)
+Search and Rescue: During your turn, whenever a card is put into your inkwell, you may return a character from your discard to your hand.",1
+AZS-015,"Support (Whenever this character quests, you may add thier {s} to another chosen character's {s} this turn.)
+Need Some Help?: At the end of your turn, you may ready another chosen character of yours.",1
+AZS-016,"SPECIAL RESERVATION - Whenever a character of yours is challenged while this character is exerted, the challenging character gets -3 {s} this turn unless their player pays 3 {i}.",1
+AZS-017,"FIND IT! - Whenever this character quests, your other Alien characters get +1 {l} this turn.",1
+AZS-018,"NUTS ABOUT PRANKS - When you play this character, you may put the top 3 cards of your deck into your discard to give chosen character -3 {s} until the start of your next turn.",1
+AZS-019,"Support (Whenever this character quests, you may add their {s} to another chosen character’s {s} this turn.)
+I Am So Sorry: 2 {i} - Chosen character gets -1 {s} until the start of your next turn.",1
+AZS-020,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Simba.)
+Understand The Balance: At the end of your turn, if this character is exerted, you may ready your other characters.",1
+AZS-021,"SAFE AND SOUND - Whenever this character quests, another chosen character of yours can't be challenged until the start of your next turn.",1
+AZS-022,"BE MORE CAREFUL - When you play this character, you may remove up to 1 damage from chosen character.",1
+AZS-023,"I'M A PIRATE TOO! - When you play this character, you may give chosen character -2 {s} until the start of your next turn.",1
+AZS-024,"THE GANG'S ALL HERE - Once during your turn, whenever you play another character, you may ready this character. He can't quest or challenge for the rest of this turn.",1
+AZS-025,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+Hire a Crew: When you play this character, look at the top 4 cards of your deck. You may reveal any number of Pirate character cards and put them into your hand. Put the rest on the bottom of your deck in any order.",1
+AZS-026,NEED A HAND? - This character gets +1 {s} this turn.,1
+AZS-036,"SOUL COLLECTOR - During an opponent's turn, whenever one of your other characters is banished, gain 2 lore.",1
+AZS-037,"Challenger +1 (While challenging, this character gets +1 {s}.)
+Zim Zabberim Bim: Your other characters gain Challenger +1.",1
+AZS-038,NA,0
+AZS-039,"Challenger +2 (While challenging, this character gets +2 {s}.)",0
+AZS-040,"A WEALTH OF HAPPINESS - When you play this character, gain 1 lore.",1
+AZS-041,"BEES' KNEES - When you play this character, move 1 damage counter from chosen character to chosen opposing character.",1
+AZS-042,NA,0
+AZS-043,Evasive (Only characters with Evasive can challenge this character.),0
+AZS-044,"I'LL GET YOU! - When this character is banished, you may exert chosen character.",1
+AZS-045,"GUESS WHO - When this character is banished in a challenge, return this card to your hand.",1
+AZS-046,NA,0
+AZS-047,"Rush (This character can challenge the turn they’re played.)
+Challenger +3 (While challenging, this character gets +3 {s}.)",0
+AZS-048,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Tinker Bell.)
+Evasive (Only characters with Evasive can challenge this character.)
+Shining Example: Whenever this character quests, your other Fairy characters get +1 {l} this turn.",1
+AZS-049,"FLY, MY PET! - When this character is banished, you may draw a card.",1
+AZS-050,Rush (This character can challenge the turn they're played.),0
+AZS-051,NA,0
+AZS-052,"Shift 7 (You may pay 7 {i} to play this on top of one of your characters named Rafiki.)
+Astral Attunement: During your turn, whenever a card is put into your inkwell, you may draw a card.",1
+AZS-053,"Evasive (Only characters with Evasive can challenge this character.)
+What Comes Next?: When you play this character, draw a card.",1
+AZS-054,"TRUST BUILDS TRUST - Whenever this character quests, reveal the top card of your deck. If it's a Dragon character card, put it into your hand and repeat this effect. Otherwise, put it on either the top or the bottom of your deck.",1
+AZS-055,"OH, BAT GIZZARDS - Gain 1 lore.",1
+AZS-056,"FEEL THE POWER - If you have fewer than 3 cards in your hand, draw until you have 3 cards in your hand.",1
+AZS-057,"I'VE GOT TO DO EVERYTHING AROUND HERE - Whenever you play a song, you may move up to 2 damage counters from chosen character to chosen opposing character.",1
+AZS-058,"GOTCHA! - During your turn, whenever a card is put into your inkwell, exert chosen opposing character.",1
+AZS-059,"WE'LL HAVE TO LOOK INTO THIS - Whenever this character quests, you may look at the top card of chosen player's deck. Put it on top of their deck or into their discard.",1
+AZS-061,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Genie.)
+Your Reward Awaits: Whenever you play a card, draw a card.
+Forbidden Treasure: At the end of your turn, put all the cards in your hand on the bottom of your deck in any order.",1
+AZS-070,"BY ORDER OF THE PRINCESS - When you play this character, choose one: • Exert chosen damaged character. • Chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)",1
+AZS-071,"INSPIRES DREAD - While this character is exerted, opposing Pirate characters can't quest.",1
+AZS-072,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Stitch.)
+Ready For Action: When you play this character, if you used Shift to play him, you may put an action card from your discard on the top of your deck.",1
+AZS-073,"Evasive (Only characters with Evasive can challenge this character.)
+Stop Whining, Women Up: When you play this character, you may pay 2 {i} to gain lore equal to the damage on chosen opposing character.",1
+AZS-074,"Here's The Best Part - When you play this character, you may pay 2 {i} to have each opponent choose and discard a card.",1
+AZS-075,"HOW COOL IS THAT - Whenever this character is challenged, gain 2 lore.",1
+AZS-076,NA,0
+AZS-077,NA,0
+AZS-078,Ward (Opponents can’t choose this character except to challenge.),0
+AZS-079,Evasive (Only characters with Evasive can challenge this character.),0
+AZS-080,"CAPTAIN ON DECK - While you have a Captain character in play, this character gets +2 {l}.",1
+AZS-081,"DISTANT SHORES - Whenever one of your Pirate characters quests while at a location, draw a card.",1
+AZS-082,NA,0
+AZS-083,Ward (Opponents can’t choose this character except to challenge.),0
+AZS-084,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Jasmine.)
+Ruler of the Seas: When you play this character, if you used Shift to play her, return all other exerted characters to their players’ hands.",1
+AZS-085,"Look Innocent - This character enters play exerted.
+Can't Take a Joke? - While this character is exerted, each opposing player can't gain lore unless one of their characters has challenged this turn.",1
+AZS-086,"Ward (Opponents can’t choose this character except to challenge.)
+Strong Like His Dad: 3 {i} - Deal 1 damage to chosen damaged character.",1
+AZS-087,"AN EYE FOR TECH - When you play this character, if an opponent has an item in play, gain 1 lore.",1
+AZS-088,"YOU CAN REALLY MOVE - When you play this character, chosen character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)",1
+AZS-089,"Ward (Opponents can't choose this character except to challenge.)
+Clever Design: Whenever this character quests, chosen character gains Ward until the start of your next turn.",1
+AZS-090,"FEAR ALWAYS WORKS - During your turn, whenever a card is put into your inkwell, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)",1
+AZS-091,"Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Basil.)
+Twists and Turns: During your turn, whenever a card is put into your inkwell, you may pay 1 {i} to have chosen opponent choose and discard a card.",1
+AZS-092,NA,0
+AZS-103,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Mickey Mouse.)
+Mariner's Might: Whenever this character quests, chosen Pirate character gets +2 {s} and gains “This character takes no damage from challenges” this turn.",1
+AZS-104,Rush (This character can challenge the turn they’re played.),0
+AZS-105,"DIZZYING SPEED - When you play this character, chosen Pirate character gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)",1
+AZS-106,"YOU'LL NEVER MISS IT - Whenever this character quests, each opponent loses 1 lore.",1
+AZS-107,"COME ON, LET'S DO THIS - Once during your turn, whenever a card is put into your inkwell, you may ready another chosen character of yours. They can't quest for the rest of this turn.",1
+AZS-108,"Evasive (Only characters with Evasive can challenge this character.)
+Look Lively, Crew!: While you have another Pirate character in play, this character gets +1 {s} and +1 {l}.",1
+AZS-109,"CHART YOUR OWN COURSE - Whenever this character quests, you may deal 1 damage to another chosen character of yours. If you do, ready that character. They can't quest for the rest of this turn.",1
+AZS-110,"AS READY AS I'LL EVER BE - At the start of your turn, if this character is at a location, draw a card and gain 1 lore.",1
+AZS-111,NA,0
+AZS-112,NA,0
+AZS-113,Evasive (Only characters with Evasive can challenge this character.),0
+AZS-114,Rush (This character can challenge the turn they're played.),0
+AZS-115,"SOLID GROUND - While this character is at a location, he gets +2 {s}.",1
+AZS-116,"KEEP DRIVING - While this character has damage, she gets +1 {l}.",1
+AZS-117,LEARNING THE ROPES - This character can't challenge unless you have a Captain character in play.,1
+AZS-118,NA,0
+AZS-119,"Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Aladdin.)
+Remember Your Training: When you play this character, your characters get +2 {s} this turn.",1
+AZS-120,"LAND, HO! - Once during your turn, whenever a card is put into your inkwell, you may return a location card from your discard to your hand.",1
+AZS-121,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Moana.)
+Gathering Forces: When you play this character, you may move any number of your characters to the same location for free. Gain 1 lore for each character you moved.",1
+AZS-122,NA,0
+AZS-123,"Rush (This character can challenge the turn they're played.)
+Evasive (Only characters with Evasive can challenge this character.)",0
+AZS-124,"Evasive (Only characters with Evasive can challenge this character.)
+CHEEEEHOOOO!: Whenever this character challenges another character, you may return an action card from your discard to your hand.
+Wayfinding: Whenever you play an action, gain 1 lore.",1
+AZS-125,WHAT ARE YOU GONNA DO? - Banish chosen character.,1
+AZS-126,"Evasive (Only characters with Evasive can challenge this character.)
+Swash Your Buckles: Whenever you play an action, this character gets +1 {s} and +1 {l} this turn.",1
+AZS-127,"TEETH AND AMBITIONS - When you play this character, deal 2 damage to chosen character of yours to deal 2 damage to another chosen character.",1
+AZS-137,"Support (Whenever this character quests, you may add their ※ to another chosen character’s ※ this turn.)",1
+AZS-138,"HAPPY TO HELP - Whenever this character quests, chosen Inventor character gets +1 {l} this turn.",1
+AZS-139,"BRAINSTORM - Whenever you play an item, this character gets +1 {l} this turn.",1
+AZS-140,"Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Gadget Hackwrench.)
+Mechanically Savvy: While you have 3 or more items in play, you pay 1 {i} less to play Inventor characters.",1
+AZS-141,"Ward (Opponents can’t choose this character except to challenge.)
+Run Interference: During your turn, whenever a card is put into your inkwell, another chosen character gains Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)",1
+AZS-142,"FAVORABLE CHANCE - During your turn, whenever a card is put into your inkwell, you may reveal the top card of your deck. If it's an item card, you may play that item for free and it enters play exerted. Otherwise, put it on the bottom of your deck.",1
+AZS-143,"TIME TO UPGRADE - Whenever this character quests, you may return one of your items to your hand to pay 2 {i} less for the next item you play this turn.",1
+AZS-144,"REPORTING FOR DUTY - When you play this character, put chosen character of yours into your inkwell facedown and exerted.",1
+AZS-145,SWEET TECH - Search your deck for an item card or a Robot character card and reveal it to all players. Shuffle your deck and put that card on top of it.,1
+AZS-146,"EAT ANYTHING - When you play this character, exert chosen opposing item. It can't ready at the start of its next turn.",1
+AZS-147,"UNPALATABLE - When you play this character, chosen opposing character gets -2 {s} this turn.",1
+AZS-148,"NICE TO HAVE A PARTNER - While you have another character with Support in play, this character gets +2 {s}.",1
+AZS-149,"BLADES OF FURY - When you play this character, you may banish chosen item. Its player gains 1 lore.",1
+AZS-150,"Shift 1 (You may pay 1 {i} to play this on top of one of your characters named Nick Wilde.)
+You Can't Touch Me: While you have an item in play, this character can't be challenged.",1
+AZS-151,NA,0
+AZS-152,NA,0
+AZS-153,LET'S GET BACK TO WORK - This character gets +1 {s} and +1 ? for each item you have in play.,1
+AZS-154,I NEED TO UPGRADE ALL OF YOU - Your other Inventor characters gain Resist +1. (Damage dealt to them is reduced by 1.),1
+AZS-155,"SOMEONE HAS TO HELP - During an opponent's turn, when this character is banished, you may put the top card of your deck into your inkwell facedown. Then, put this card into your inkwell facedown.",1
+AZS-156,"Fully Charged - If you have an Inventor character in play, you may pay 1 {i} less to play this character
+You Said 'Ow' - 2 {i}: Remove up to 1 damage from another chosen character.",1
+AZS-157,"THE TREATMENT IS WORKING - When you play this character and whenever he quests, you may remove up to 2 damage from another chosen character of yours. Gain 1 lore for each 1 damage removed this way.",1
+AZS-158,NA,0
+AZS-159,NA,0
+AZS-160,"Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Yokai.)
+NeuroTransmitter: You may play items named Microbots for free.
+Technical Gain: Whenever this character quests, draw a card for each opposing character with 0 {s}.",1
+AZS-161,"Ward (Opponents can’t choose this character except to challenge.) 
+Ahoy!: Whenever this character quests, another chosen character of yours gets +1 {l} and gains Ward until the start of your next turn.",1
+AZS-171,"A LITTLE HELP - When you play this character, if you have another Pirate character in play, you may deal 1 damage to chosen character or location.",1
+AZS-172,"HEAD COCONUT - Whenever this character quests, you may draw a card, then choose and discard a card to deal 1 damage to chosen character or location. If you discarded a Pirate character card, deal 3 damage instead.",1
+AZS-173,"COME ON, COME ON, COME ON! - During your turn, whenever a card is put into your inkwell, this character gains Challenger +2 this turn. (They get +2 {s} while challenging.)",1
+AZS-174,REPUTATION - This character can't be challenged by characters with 2 {s} or greater.,1
+AZS-175,"GOOD CATCH - During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",1
+AZS-176,"Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Mr. Smee)
+Raise the Colors: When you play this character, you may deal damage to chosen character equal to the number of your other Pirate characters in play.",1
+AZS-177,"FALL IN LINE - While you have a character named Mr. Smee in play, this character gains Resist +1. (Damage dealt to them is reduced by 1.)",1
+AZS-178,NA,0
+AZS-179,NA,0
+AZS-180,"Challenger+2 (While challenging, this character gets +2 {s}.)",0
+AZS-181,"HUNK OF HARDWARE - When you play this character, chosen character can't challenge during their next turn.",1
+AZS-182,Resist +1 (Damage dealt to this character is reduced by 1.),0
+AZS-183,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Jim Hawkins.)
+Battle Stations: When you play this character, you may deal 1 damage to chosen character or location.",1
+AZS-184,NA,0
+AZS-185,"KEEP IT HIDDEN - When this character is banished, you may banish chosen item or location.",1
+AZS-186,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+Good Boy: While this character has no damage, he gets +4 {s}.",1
+AZS-187,BACKUP - Your characters named Pluto gain Resist +1. (Damage dealt to them is reduced by 1.),1
+AZS-188,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+Think About What's Best: 2 {i} - Draw a card, then choose and discard a card.",1
+AZS-189,NA,0
+AZS-190,"I WRECK THINGS - Whenever this character quests, you may banish chosen item or location to gain 2 lore.",1
+AZS-191,"Resist +1 (Damage dealt to this character is reduced by 1.)
+Level Up: During your turn, whenever this character banishes another character in a challenge, gain 2 lore.",1
+AZS-192,DRIVELING GALOOTS - This character can't be challenged by Pirate characters.,1
+AZS-193,"YOU'LL GET WHAT'S COMING TO YOU - During your turn, whenever a card is put into your inkwell, deal 1 damage to chosen character.",1
+AZS-194,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named John Silver.)
+Resist +2 (Damage dealt to this character is reduced by 2.)
+Don't Just Sit There!: At the start of your turn, deal 1 damage to each opposing ready character.",1
+INK-001,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+
+Let's Make Like A Tree - When this character is banished, gain 2 lore.",1
+INK-002,"I'll Check It Out - At the end of your turn, if this character is exerted, you may ready another chosen character of yours.",1
+INK-003,"The Power Of Evil - For each character card in your discard, you pay 1{i} less to play this character.
+
+Summon The Spirits - When you play this character, shuffle all character cards from your discard into your deck.",1
+INK-004,Where Did They All Come From? - You may have up to 99 copies of Dalmatian Puppy - Tail Wagger in your deck.,1
+INK-005,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.),0
+INK-006,NA,0
+INK-007,"Shift 3 (You may pay 3{i} to play this on top of one of your characters named Kida.)
+
+Perhaps We Can Save Our Future - When you play this character, all characters get -3{s} until the start of your next turn.",1
+INK-008,"Good As New - {e}: Reveal the top 3 cards of your deck. You may put each character card with cost 2 or less into your hand. Put the rest on the bottom of your deck in any order.
+
+Puppy Love - Whenever this character quests, if you have 4 or more other characters in play, your other characters get +1{l} this turn.",1
+INK-009,"Singer 3 (This character counts as cost 3 to sing songs.)
+
+Entourage - Whenever you play a character with Bodyguard, you may remove up to 2 damage from chosen character.",1
+INK-010,Singer 4 (This character counts as cost 4 to sing songs.),0
+INK-011,NA,0
+INK-012,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.),0
+INK-013,NA,0
+INK-014,Bark - {e}: Chosen character gets -2{s} until the start of your next turn.,1
+INK-015,"Come Along, Children - When you play this character and whenever she quests, you may play a character with cost 2 or less from your discard for free.",1
+INK-016,"And I'm The Captain! - While you have 2 or more other characters in play, this character gets +2{l}.",1
+INK-017,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Pluto.)
+
+Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+
+Guard Dog - At the start of your turn, remove up to 3 damage from this character.",1
+INK-018,Good Dog - {e}: You pay 1{i} less for the next character you play this turn.,1
+INK-019,"Twilight Bark - Once per turn, you may pay 2{i} to reveal the top card of your deck. If it's a character card, put it into your hand. Otherwise, Put it on the bottom of your deck.",1
+INK-020,"All Ways Here Are My Ways - Whenever this character quests, your other Villain characters get +1{l} this turn.",1
+INK-021,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+INK-022,"Make A New Friend - When you play this character, look at the top 4 cards of your deck. You may reveal a character card and put it into your hand. Put the rest on the bottom of our deck in any order.",1
+INK-023,NA,0
+INK-035,Curiouser And Curiouser - {e}: Exert chosen opposing character and all other opposing characters with the same name.,1
+INK-036,"Restless Souls - Whenever this character quests, you may banish them to draw a card.",1
+INK-037,"Looking For Aurora - Whenever you play a character named Maleficent, you may look at the top card of your deck. Put it on the top or the bottom of your deck.",1
+INK-038,"Three Wishes - Whenever this character quests, you may shuffle this card into your deck to draw 3 cards.",1
+INK-039,Blizzard - {e}: Exert chosen character.,1
+INK-040,Evasive (Only characters with Evasive can challenge this character.),0
+INK-041,"I Am Your Master Now - When you play this character, look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom.",1
+INK-042,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Jafar.)
+
+Evasive (Only characters with Evasive can challenge this character.)
+
+Power Beyond Measure - During your turn, while this character is exerted, whenever you draw a card, gain 1 lore.",1
+INK-043,Rush (This character can challenge the turn they're played.),0
+INK-044,"Power Clean - When you play this character, if you have a Sorcerer character in play, you may exert chosen opposing character. They can't ready at the start of their next turn.",1
+INK-045,"Rush (This character can challenge the turn they're played.)
+
+Clean This, Clean That - When you play this character, you may shuffle all Broom cards from your discard into your deck.",1
+INK-046,"Clean Sweep - While this character is at a location, it gets +2{s}.",1
+INK-047,"Evasive (Only characters with Evasive can challenge this character.)
+
+Find The Way - {e}: Move a character of yours to a location for free.",1
+INK-048,NA,0
+INK-049,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Magica De Spell.)
+
+All Mine - Whenever this character quests, gain lore equal to the cost of one of your items in play.",1
+INK-050,Telekinesis - {e}: Return chosen item with cost equal to or less than this character's {s} to its player's hand.,1
+INK-051,"Dark Knowledge - Whenever this character quests, you may draw a card.
+
+Divination - During your turn, whenever you draw a card, you may move 1 damage counter from chosen character to chosen opposing character.",1
+INK-052,"Listen To Your Mama Now - Whenever this character quests, you may move up to 2 damage counters from chosen character to chosen opposing character.",1
+INK-053,"Always There - When this character is banished, you may shuffle this card into your deck.",1
+INK-054,"Challenger +3 (While challenging, this character gets +3{s}.)
+ 
+ Ancient Skills - Whenever he challenges a Hyena character, this character takes no damage from the challenge.",1
+INK-055,"Evasive (Only characters with Evasive can challenge this character.)
+
+Cyclone - {e}: Gain lore equal to the number of Titan characters you have in play.",1
+INK-056,NA,0
+INK-057,NA,0
+INK-058,Who Disturbs MY Slumber? - This character can't challenge or quest unless it is at a location.,1
+INK-059,"You're Too Late - Whenever this character quests, chosen opposing character can't ready at the start of their next turn.",1
+INK-069,"The Bear - Whenever this character moves to a location, he gets +3{s} this turn.",1
+INK-070,"Poor Souls - Whenever this character is challenged, each opponent chooses and discards a card.",1
+INK-071,Evasive (Only characters with Evasive can challenge this character.),0
+INK-072,Eerie Pair - Your characters named Jetsam get +3{s}.,1
+INK-073,"You Thieving Scoundrel - When you play this character, the player or players with the most cards in their hand chooses and discards a card.",1
+INK-074,"Shift 3 (You may pay 3{i} to play this on top of one of your characters named Helga Sinclair.)
+
+This Changes Everything - Whenever this character quests, you may deal 3 damage to chosen damaged character.",1
+INK-075,"Nothing Personal - When this character is challenged and banished, banish the challenging character.",1
+INK-076,"Ward (Opponents can't choose this character except to challenge.)
+
+Eerie Pair - Your characters named Flotsam gain Ward.",1
+INK-077,"Skysurfing - When you play this character, you may return chosen opposing character with 2{s} or less to their player's hand.",1
+INK-078,"Well, Now You Know - When you play this character, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)
+
+Thanks For Volunteering - Whenever one of your other characters is banished, each opponent loses 1 lore.",1
+INK-079,NA,0
+INK-080,"Shift 4 (You may pay 4{i} to play this on top of one of your characters named Milo Thatch.)
+
+Take Them By Surprise - When this character is banished, return all opposing characters to their player's hands.",1
+INK-081,Mimicry - You may play any character with Shift on this character as if this character had any name.,1
+INK-082,"I Came To Listen To The Stories - Once per turn, when this character moves to a location, gain lore equal to that location's {l}.",1
+INK-083,"Collect Taxes - Whenever this character quests, each opponent with more lore than you loses 2 lore.",1
+INK-084,NA,0
+INK-085,"I'll Handle This - While this character is at a location, she gets +3{s}.
+ 
+What's The Hurry? - While this character is at a location, whenever she challenges another character, you may draw a card.",1
+INK-086,Evasive (Only characters with Evasive can challenge this character.),0
+INK-087,Ward (Opponents can't choose this character except to challenge.),0
+INK-088,NA,0
+INK-089,"Evasive (Only characters with Evasive can challenge this character.)
+
+Hide - While this character is at a location, he gains Ward. (Opponents can't choose them except to challenge.)",1
+INK-090,"You'll Never Even Miss It - When you play this character, chosen opponent reveals their hand and discards a song card of your choice.",1
+INK-091,"What A Deal - Whenever this character sings a song, you may play that song again from your discard for free, then put it on the bottom of your deck.",1
+INK-092,"Evasive (Only characters with Evasive can challenge this character.)
+
+Disassemble - {e}: Banish chosen item.",1
+INK-093,"It's Time To Go! - While this character is at a location, he gets +1{l}.",1
+INK-103,"Evasive (Only characters with Evasive can challenge this character.)
+
+Inspiring Voice - Whenever you play a song, chosen character of yours gains Evasive until the start of your next turn.",1
+INK-104,NA,0
+INK-105,"Nemesis - During your turn, whenever this character banishes another character in a challenge, ready this character. He can't quest for the rest of this turn.
+
+Man-To-Man - Characters named Peter Pan lose Evasive and can't gain Evasive.",1
+INK-106,Reckless (This character can't quest and must challenge each turn if able.),0
+INK-107,"Mindless Wandering - Once per turn, when this character moves to a location, each opponent loses 1 lore.",1
+INK-108,"Watch The Teeth - Whenever this character is dealt damage, deal that much damage to chosen opposing character.",1
+INK-109,"This Is It! - When you play this character, you may play a location with cost 4 or less for free.
+
+Take The Helm - Whenever you play a location, this character may move there for free.",1
+INK-110,NA,0
+INK-111,"Plunder - When you play this character, each opponent loses 1 lore.",1
+INK-112,"That Terrible Woman - When you play this character, banish chosen opposing character with 3{s} or less.",1
+INK-113,"Reckless (This character can't quest and must challenge each turn if able.)
+
+In Ma Belly - Whenever a character of yours named HeiHei quests, this character gets +1{l} and loses Reckless this turn.",1
+INK-114,"This Mission Is Cursed - This character can't ready at the start of your turn.
+
+I Got Your Back - 2{i}: Ready this character. He can't quest for the rest of the turn.",1
+INK-115,"I'm Your Man! - While this character is at a location, he gets +2{s}.",1
+INK-116,"Shift 3 (You may pay 3{i} to play this on top of one of your characters named Moana.)
+
+Welcome To My Boat - Whenever this character quests while at a location, ready all other characters here, they can't quest for the rest of this turn.",1
+INK-117,Evasive (Only characters with Evasive can challenge this character.),0
+INK-118,NA,0
+INK-119,"Rush (This character can challenge the turn they're played.)
+ 
+ Over Here, Tink - While you have a character named Tinker Bell in play, this character gets +2{s}.",1
+INK-120,"Shift 4 (You may pay 4{i} to play this on top of one of your characters named Peter Pan.)
+
+Evasive (Only characters with Evasive can challenge this character.)
+
+You're Next! - Whenever he challenges a Pirate character, this character takes no damage from the challenge.",1
+INK-121,"Surprise Maneuver - When this character is banished, you may banish chosen character.",1
+INK-122,"Brute - While this character has damage, he gets +3{s}.",1
+INK-123,NA,0
+INK-124,"The Fox - If you have a character named Peter Pan in play, you pay 1{i} less to play this character.
+
+Evasive (Only characters with Evasive can challenge this character.)",1
+INK-125,Rush (This character can challenge the turn they're played.),0
+INK-126,Old Betsy - Your characters named Nutsy get +1{l}.,1
+INK-127,NA,0
+INK-137,"Ward (Opponents can't choose this character except to challenge.)
+
+Spare Parts - Whenever this character quests, ready one of your items.",1
+INK-138,"Discipline - During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",1
+INK-139,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+INK-140,"They'll Never See It Coming! - During your turn, this character gains Evasive. (They can challenge characters with Evasive.",1
+INK-141,NA,0
+INK-142,"There Was Only Ocean - When you play this character, look at the top 2 cards of your deck. You may put one into your hand. Put the rest on the bottom of your deck in any order.",1
+INK-143,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Gramma Tala.)
+
+Do You Know Who You Are? - Whenever a card is put into your inkwell, gain 1 lore.",1
+INK-144,Now Try To Keep Up - {e}: Put an item card from your discard on the top of your deck.,1
+INK-145,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)
+
+Three Nephews - Whenever this character quests, if you have characters named Dewey and Louie in play, you may draw 3 cards.",1
+INK-146,NA,0
+INK-147,"Shift 3 (You may pay 3{i} to play this on top of one of your characters named Kit Cloudkicker.)
+
+Ward (Opponents can't choose this character except to challenge.)",0
+INK-148,Ward (Opponents can't choose this character except to challenge.),0
+INK-149,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+INK-150,"Highborn Lady - When you play this character, chosen character gets -2{s} this turn.",1
+INK-151,"This Going To Be Good - Whenever you play a song, you may put the top card of your deck into your inkwell facedown and exerted.",1
+INK-152,NA,0
+INK-153,"Too Old To Be Chasing Mice - When this character is banished, you may put this card into your inkwell facedown and exerted.",1
+INK-154,"I'm Going Home! - During your turn, this character gains Evasive. (They can challenge characters with Evasive.)
+
+I Didn't Get Rich By Being Stupid - During your turn, whenever this character banishes another character in a challenge, you may play an item for free.",1
+INK-155,"Treasure Rigger - Whenever this character quests, you pay 1{i} less for the next item you play this turn.",1
+INK-156,"Calculating And Vain - Whenever this character quests, you may look at the top 3 cards of your deck and put them back in any order.",1
+INK-157,"I Can Use That - Whenever one of your items is banished, you may put that card into your inkwell facedown and exerted.",1
+INK-158,"Ward (Opponents can't choose this character except to challenge.)
+
+Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+INK-171,NA,0
+INK-172,Resist +1 (Damage dealt to this character is reduced by 1.),0
+INK-173,"All Tied Up - This character enters play exerted and can't ready at the start of your turn.
+
+Break Free - During your turn, whenever one of your other characters banished another character in a challenge, you may ready this character.",1
+INK-174,Call The Titans - {e}: Ready your Titan characters.,1
+INK-175,"Challenger +2 (While challenging, this character gets +2{s}.)",0
+INK-176,"Chart Your Own Course - For each location you have in play, this character gains Resist +1 and gets +1{l}. (Damage dealt to them is reduced by 1.)",1
+INK-177,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.),0
+INK-178,"Shift 4 (You may pay 4{i} to play this on top of one of your characters named Little John.)
+
+Okay, Big Shot - While this character is exerted, your characters with Bodyguard gain Resist +1 and get +1{l}.",1
+INK-179,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+
+Disguised - During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",1
+INK-180,"Resist +2 (Damage dealt to this character is reduced by 2.)
+
+Stone Skin - {e}: Chosen character gains Resist +2 this turn.",1
+INK-181,Let's Take A Look - This character gets +1{s} for each location you have in play.,1
+INK-182,"Sound The Call - {e}, 2{i}: Play a character for free.",1
+INK-183,"Journey - While this character is at a location, she gets +2{s}.",1
+INK-184,"Oh Dear, Dear, Dear - At the end of your turn, if this character is exerted and you don't have a Captain character in play, deal 1 damage to this character.",1
+INK-185,NA,0
+INK-186,NA,0
+INK-187,"Eruption - During your turn, whenever this character banishes another character in a challenge, you may ready chosen character.",1
+INK-188,"Looky Here - While this character has no damage, he gets +2{s}.",1
+INK-189,NA,0
+INK-190,"Shift 3 (You may pay 3{i} to play this on top of one of your characters named Robin Hood.)
+
+Skilled Combatant - During your turn, whenever this character banishes another character in a challenge, gain 2 lore.
+
+The Good Of Others - When this character is banished in a challenge, you may draw a card.",1
+INK-191,"Taxes Should Hurt - Whenever you discard a card, you may deal 1 damage to chosen opposing character.",1
+INK-192,"Step Down Or Fight - When you play this character and whenever he banishes another character in a challenge during your turn, you may choose one:
+ - Draw 2 cards, then choose and discard 2 cards.
+ - Deal 2 damage to chosen character.",1
+INK-193,"Triumphant Stance - During your turn, whenever this character banishes another character in a challenge, chosen opposing character can't challenge during their next turn.",1
+INK-194,"My Teeth Are Sharper - Whenever this character quests while at a location, you may deal 1 damage to chosen character.",1
+ROF-001,"Oh, Gosh! - This character can't quest unless you have another Seven Dwarfs character in play.",1
+ROF-002,"We'll Always Be Together: Whenever you ready this character, if you have 2 or more other characters in play, gain 2 lore.",1
+ROF-003,Singer 3 (This character counts as cost 3 to sing songs.),0
+ROF-004,NA,0
+ROF-005,"Share and Share Alike: Whenever this character quests, you pay 1 {i} less for the next character you play this turn.",1
+ROF-006,"Odd One Out: When this character is banished, your other Seven Dwarfs characters get +2 {s} until the start of your next turn.",1
+ROF-007,NA,0
+ROF-008,Singer 5 ( This character counts as cost 5 to sing songs.),0
+ROF-009,"Yes, Your Majesty - Your Prince, Princess, King, and Queen characters get +1 {s}.",1
+ROF-010,There's Trouble A-Brewin' - Your other Seven Dwarfs characters get +1 {s}.,1
+ROF-011,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+ROF-012,"Lay It On The Line - Whenever another character is banished, you may remove up to 2 damage from this character.",1
+ROF-013,"Glad You're Here! - Whenever this character quests, you pay 3 {i} less for the next character you play this turn.",1
+ROF-014,"The Sun Will Set - When this character is banished, you may reveal the top card of your deck. If it's a character card, you may play that character for free and they enter play exerted. Otherwise, put it on the top of your deck.",1
+ROF-015,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+ROF-016,"Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Mulan.)
+
+Honor To The Ancestors - Whenever this character quests, you may reveal the top card of your deck. If it's a song card, you may play it for free. Otherwise, put it on the top of your deck.",1
+ROF-017,"Nursemaid - Whenever you play a Floodborn character, you may remove all damage from chosen character.",1
+ROF-018,NA,0
+ROF-019,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Rapunzel.)
+
+Let Your Power Shine - Whenever you remove 1 or more damage from one of your characters, you may draw a card.",1
+ROF-020,Magic Hair - {e}: Remove up to 2 damage from chosen character.,1
+ROF-021,Yawn! - This character enters play exerted.,1
+ROF-022,"Ah-Choo! Whenever you play this character or another Seven Dwarfs character, you may give chosen character -1 {s} this turn.",1
+ROF-023,"I Won't Hurt You - When you play this character, you may remove up to 2 damage from chosen character.",1
+ROF-024,How Do You Do? - You pay 1 {i} less to play Seven Dwarfs Characters.,1
+ROF-025,"Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Snow White.)
+
+Wishes Come True - Whenever this character quests, you may return a character card from your discard to your hand.",1
+ROF-026,"Shift 2 (You may pay 2 {i} to play this on top of one of your characters named The Queen.)
+
+Who is the Fairest? - Whenever this character quests, chosen opposing character gets -4 {s} this turn and chosen character gets +4 {s} this turn.",1
+ROF-027,NA,0
+ROF-035,"Student: Whenever this character quests, you may return another chosen character of yours to your hand to gain 2 lore.",1
+ROF-036,"Evasive (Only characters with Evasive can challenge this character.)
+Ethereal Glow: Whenever you play a Floodborn character, you may draw a card.",1
+ROF-037,NA,0
+ROF-038,Evasive (Only characters with Evasive can challenge this character.),0
+ROF-039,"Challenger +3 (While challenging, this character gets +3 {s}.)",0
+ROF-040,NA,0
+ROF-041,"Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Fairy Godmother.)
+Forget The Coach, Here's A Sword: Whenever this character quests, your characters gain Challenger +3 and ""When this character is banished in a challenge, return this card to your hand"" this turn. (They get +3 {s} while challenging.)",1
+ROF-042,"Just Leave It To Me: Whenever you play a character named Cinderella, you may exert chosen character.",1
+ROF-043,"He's Back: When this character is banished in a challenge, return this card to your hand.",1
+ROF-044,"Evasive (Only characters with Evasive can challenge this character.)
+That Still, Small Voice: When you play this character, if you have a character named Pinocchio in play, you may draw a card.",1
+ROF-045,"Ok, Where am I?: When this character is banished, you may draw a card.",1
+ROF-046,"Chasing The Rabbit: When you play this character, banish her or return another chosen character of yours to your hand.
+Rush (This character can challenge the turn they're played.)",1
+ROF-047,"Evasive (Only characters with Evasive can challenge this character.)
+\nI Win, I Win!: When you play this character, banish her or return another 2 chosen characters of yours to your hand.",1
+ROF-048,"Shift 3 (You may play 3 {i} to play this on top of one of your characters named Madam Mim.)
+Gruesome And Grim: {e} - Play a character with cost 4 or less for free. They gain Rush. At the end of the turn, banish them. (They can challenge the turn they're played)",1
+ROF-049,"Just You Wait: When you play this character, banish her or return another chosen character of yours to your hand.",1
+ROF-050,"Ready Or Not!: When you play this character and when he leaves play, chosen characters gain Challenger +3 this turn. (They get +3 {s} while challenging.)",1
+ROF-051,"Here I Come!: When you play this character and when he leaves play, gain 1 lore.",1
+ROF-052,"Hoppity Hip!: When you play this character and when he leaves play, you may draw a card.",1
+ROF-053,"Battle Of Wits: Whenever one of your other characters is returned to your hand from play, this characters get +1 {l} this turn.",1
+ROF-054,"Look Before You Leap: When you play this character and when he leaves play, look at the top card of your deck. Put it on either the top or the bottom of your deck.",1
+ROF-055,"Evasive (Only characters with Evasive can challenge this character.)
+Rush (This character can challenge the turn they're played.)
+Tiptoe: Your other characters with Rush gain Evasive.",1
+ROF-056,NA,0
+ROF-057,"Shift 3 (You pay 3 {i} to play this on top of one of your characters named Pinocchio.)
+Listen To Your Conscience: When you play this character, you may return chosen character or item with cost 3 or less to their player's hand.",1
+ROF-058,"Telling Lies: When you play this character, you may exert chosen opposing character.",1
+ROF-059,NA,0
+ROF-060,"Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Yzma)
+Cruel Irony: When you play this character, shuffle another chosen character card into their player's deck. That player draws 2 cards.",1
+ROF-061,NA,0
+ROF-069,NA,0
+ROF-070,"Second Wind: Whenever an opposing character is damaged, you may ready this character.",1
+ROF-071,"Use Your Imagination: While an opponent has no cards in their hand, this character gets +2 {l}.",1
+ROF-072,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Belle.)
+Thorny Arrows: Whenever this character is challenged, the challenging character's player discards all cards in their hand.",1
+ROF-073,"Ward (Opponents can't choose this character except to challenge.)
+Squeak: Whenever you play a Floodborn character, each opponent chooses and discards a card.",1
+ROF-074,NA,0
+ROF-075,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Cheshire Cat.)
+Evasive (Only characters with Evasive can challenge this character.)
+Wicked Smile: {e} - Banish chosen damaged character.",1
+ROF-076,"Thwart: Whenever this character quests, each opponent chooses and discards a card.",1
+ROF-077,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Donald Duck.)
+Allow Me: At the start of your turn, each player may draw a card.",1
+ROF-078,"Startled Awake: Whenever you play an action, this character gets +2 {s} this turn.",1
+ROF-079,"Evasive (Only characters with Evasive can challenge this character.)
+You're In My World: Whenever this character quests, chosen opposing character can't quest during their next turn.",1
+ROF-080,"True Form: While being challenged, this character gets +2 {s}.",1
+ROF-081,NA,0
+ROF-082,"Shift 2 (You may 2 {i} to play this on top of one of your characters named Flynn Rider.)
+Evasive (Only characters with Evasive can challenge this character.)
+One Last, Big Score: This character gets -1 {l} for each card in your opponents' hands.",1
+ROF-083,"Yes, I'm Intimidating: While one or more opponents have no cards in their hands, this character gets +3 {s}.",1
+ROF-084,NA,0
+ROF-085,"Mouse Catcher: When you play this character, each opponent chooses and discards either 2 cards or 1 action card.",1
+ROF-086,"Coming, Your Most Lugubriousness: While this character has 5 {s} or more, he gets +2 {l}.",1
+ROF-087,"I Can Handle It: When you play this character, chosen character gets +2 {s} this turn. If the chosen character is named Pain, he gets +4 {s} instead.",1
+ROF-088,"Ward (Opponents can't choose this character except to challenge.)
+Take That!: Whenever you play an action, this character gets +2 {s} this turn.
+Who's Next?: While this character has 7 {s} or more, he gets +2 {l}.",1
+ROF-089,"Ward (Opponents can't choose this character except to challenge.)
+I Sentence You: Whenever your opponents discards 1 or more cards, you may draw a card for each card discarded.",1
+ROF-090,"Royal Rage: When you play this character, deal 1 damage to chosen damaged opposing character.",1
+ROF-091,Evasive (Only characters with Evasive can challenge this character.),0
+ROF-092,Evasive (Only characters with Evasive can challenge this character.),0
+ROF-093,"A Perfect Disguise: {e}, Choose and discard a character card - Gain lore equal to the discarded character's {l}.",1
+ROF-094,NA,0
+ROF-095,NA,0
+ROF-103,NA,0
+ROF-104,NA,0
+ROF-105,NA,0
+ROF-106,"Evasive (Only characters with Evasive can challenge this character.)
+ 
+ Phooey!: This character gets +1 {l} for each 1 damage on him.",1
+ROF-107,Reckless (This character can't quest and must challenge each turn if able.),0
+ROF-108,"Evasive (Only characters with Evasive can challenge this character.)
+",0
+ROF-109,"Easy Street - Whenever you play a Floodborn character, each opponent loses 1 lore.",1
+ROF-110,"Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Lady Tremaine.)
+
+Power To Rule At Last - When you play this character, each opponent chooses and banishes one of their characters.",1
+ROF-111,"Not For You - When you play this character, each opponent with more lore than you loses 1 lore.",1
+ROF-112,NA,0
+ROF-113,Evasive (Only characters with Evasive can challenge this character.),0
+ROF-114,"Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Minnie Mouse.)
+Evasive (Only Characters with Evasive can challenge this character.)
+Undersea Adventure: Whenever you play a second action in a turn, this character gets +2 {l} this turn.",1
+ROF-115,NA,0
+ROF-116,What Have You Done?!: This character enters play with 3 damage.,1
+ROF-117,Rush (This character can challenge the turn they're played.),0
+ROF-118,"This Shouldn't Take Long: {e}, Banish this character - Banish chosen character.",1
+ROF-119,Rush (This character can challenge the turn they're played.),0
+ROF-120,"Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Queen of Hearts.)
+Let The Game Being: Whenever one of your characters challenges another character, you may draw a card.",1
+ROF-121,"This Is My Kingdom: When you play this character, exert chosen opposing character with 3 {s} or less. Choose one of your characters and read them. They can't quest for the rest of this turn.",1
+ROF-122,"Note To Self, Don't Die: During your turn, whenever this character banishes another character in a challenge, you may ready this character. She can't quest for the rest of this turn.",1
+ROF-123,"Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Raya.)
+Champion Of Kumandra: Whenever this character challenges a damaged character, she takes no damage from the challenge.",1
+ROF-124,NA,0
+ROF-125,"Rush (This character can challenge the turn they're played.)
+Daddy Isn't Here To Save You: During your turn, whenever this character banishes another character in a challenge, you may ready this character. He can't quest for the rest of this turn.",1
+ROF-126,"Don't Insult My Intelligence: Whenever one of your characters challenges another character, gain 1 lore.",1
+ROF-127,"Energetic: Whenever you play an action, this character gets +2 {s} this turn.",1
+ROF-128,Reckless (This character can't quest and must challenge each turn if able.),0
+ROF-137,"Good Advice - Your other characters gain Support. (Whenever they quest, you may add their {s} to another chosen character's {s} this turn.)
+ What Did I Do? - While this character has 10 {s} or more, she gets +4 {l}.",1
+ROF-138,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Basil.)
+There's Always A Chance: If you used Shift to play this character, you may draw 2 cards when he enters play.",1
+ROF-139,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+ROF-140,NA,0
+ROF-141,NA,0
+ROF-142,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Cogsworth.)
+Ward (Opponents can't choose this character except to challenge.)
+Unwind: Your other characters gain Resist +1 (Damage dealt to them is reduced by 1)",1
+ROF-143,"Wait A Minute: Your characters with Reckless gain ""{e} - Gain 1 lore.""",1
+ROF-144,"Now Get Going: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",1
+ROF-145,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Cruella De Vil.)
+Oh, No You Don't: Whenever this character quests, chosen opposing character gets -2 {s} this turn.",1
+ROF-146,Ward (Opponents can't choose this character except to challenge.),0
+ROF-147,"Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Gaston.)
+Developed Brain: When you play this character, look at the top 3 cards of your deck. You may put one into your hand. Put the rest on the bottom of your deck in any order.",1
+ROF-148,"Ancient Insight: Whenever you remove 1 or more damage from one of your characters, gain 2 lore.",1
+ROF-149,"Artificer: When you play this character and whenever he quests, you may banish one of your items to draw 2 cards.",1
+ROF-150,"Never, Ever Lose Sight: When this character is banished, you may put this card into your inkwell facedown and exerted.",1
+ROF-151,"I'm A Fast Learner: When you play this character, remove up to 1 damage from chosen character of yours.",1
+ROF-152,"Don't Call Me Cute: When you play this character, you may banish chosen item. Its player draws a card.",1
+ROF-153,"Tidy Up: Whenever you play a Floodborn character, you may put the top card of your deck into your inkwell facedown and exerted.",1
+ROF-154,"It's Called A Hustle: When play this character, you may return an item card name Pawpsicle from your discard to your hand.",1
+ROF-155,"Hide And Seek: While you have an item in play, this character gains Resist +1 and Ward. (Damage dealt to this character is reduced by 1. Opponents can't choose this character except to challenge.)",1
+ROF-156,NA,0
+ROF-157,NA,0
+ROF-158,NA,0
+ROF-159,"I Trust You: Whenever this character quests, look at the top 2 cards of your deck. You may put one into your hand. Put the rest on the bottom of your deck in any order.",1
+ROF-160,Ward (Opponents can't choose this character except to challenge.),0
+ROF-161,"Hunny Pot: Whenever this character quests, you may put a card from your hand into your inkwell facedown.",1
+ROF-171,"You're Not Welcome Here: When you play this character, you may deal 1 damage to chosen character.",1
+ROF-172,"Shield Another: Whenever one of your other character would be dealt damage, put that many damage counters on this character instead.",1
+ROF-173,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Beast.)
+It's Better This Way: At the start of your turn, if this character has no damage, draw a card. Otherwise, he gets +4 {s} this turn.",1
+ROF-174,"We Have A Choice: When you play this character, you may banish chosen item.",1
+ROF-175,"Insubordination!: Whenever you play a Floodborn character, deal 1 damage to each opposing character.",1
+ROF-176,"Have Courage: When you play this character, you may draw a card, then choose and discard a card.",1
+ROF-177,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Cinderella.)
+ Resist +2 (Damage dealt to this character is reduced by 2.)
+ The Singing Sword: Whenever you play a song, this character may challenge ready characters this turn.",1
+ROF-178,NA,0
+ROF-179,NA,0
+ROF-180,NA,0
+ROF-181,Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Hercules.)\nResist +2 (Damage dealth to this character is reduced by 2.),1
+ROF-182,NA,0
+ROF-183,"Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Jafar.)\nNow Where Were We?: During your turn, whenever this character banishes another character in a challenge, you may draw a card.",1
+ROF-184,"I Don't Trust Him, Sire: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",1
+ROF-185,"Resist +1 (Damage dealt to this character is reduced by 1.)\nScout Leader: During your turn, whenever this character banishes another character in a challenge, you may deal 2 damage to chosen character.",1
+ROF-186,"Payback: While this character has no damage, he gets +4 {s}.",1
+ROF-187,"Archery Lesson: Whenever this character quests, your characters gain Evasive this turn. (They can challenge characters with Evasive.)",1
+ROF-188,"Make It Shine: When you play this character, chosen character gains Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)",1
+ROF-189,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\nBlades: This character can challenge ready characters.,1
+ROF-190,NA,0
+ROF-191,NA,0
+ROF-192,"Off With Their Heads!: Whenever an opposing character is banished, you may ready this character.",1
+ROF-193,Skirmish {e} - Deal 1 damage to chosen character.,1
+ROF-194,"Change Of Heart: Whenever this character quests, you may draw a card, then choose and discard a card.",1
+ROF-195,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)\nResist +1 (Damage dealt to this character is reduced by 1.),0
+ROF-196,"Resist +2 (Damage dealt to this character is reduced by 2.)\nWhat You Give Is What You Get: While this character is exerted and you have no cards in your hand, opponents can't play actions.",1
+ROF-197,NA,0
+SSK-001,"Tell Everybody: During opponents' turns, you can't lost lore.",1
+SSK-002,NA,0
+SSK-003,"Singer 6 (This-character counts as cost6 {i} to sing songs.)
+ It's Beautiful, No?: When you play this character, you may play a song with cost 6 or
+ less for free.",1
+SSK-004,"Support (Whenever this character quests, you
+may add their {s} to another chosen character's {s}
+this turn.)",0
+SSK-005,"Brothers Forever:
+ While this character is exerted,
+ your characters named Koda can't be challenged.",1
+SSK-006,NA,0
+SSK-007,NA,0
+SSK-008,"Support (Whenever this character quests, you
+may add their {s} to another chosen character's
+{s} this turn.)",0
+SSK-009,"You've Got To Pay To Play:Whenever this
+ character quests, chosen opposing character gets
+ -1{s} until the start of your next turn.",1
+SSK-010,"Bodyguard (This character may enter play exerted.
+An opposing character who challenges one of
+your characters must choose one with Bodyguard
+if able.)",0
+SSK-011,"Singer 5 (This character counts as cost 5 to sing
+songs.)",0
+SSK-012,"Shift 3 (You may pay 3{i} to play this on top of
+ one of your characters named Fix-lt Felix, Jr.)
+ Building Together: Your locations get +2 {w}.",1
+SSK-013,"Bodyguard (This character may enter play exerted.
+ An opposing character who challenges one of your
+ characters must choose one with Bodyguard if able.)
+ 
+ Song Of The Herd: For each song card in your
+ discard, you pay 1{i} less to play this character.",1
+SSK-014,"Not Without My Family: You can't play this
+ character unless you have 5 or more characters in
+ play.",1
+SSK-015,"Shift 4 (You may pay 4{i}  to play this on top of one of
+ your characters named Minnie Mouse.)
+ Parade Order: When you play this character, if you
+ used Shift to play her, you may search your deck for
+ a character card and reveal that card to all players.
+ Shuffle your deck and put that card on top of it.",1
+SSK-016,"Big Prize: Whenever this character quests, each
+ opponent reveals the top card of their deck. If it's
+ a character card, they may put it into their hand.
+ Otherwise, they put it on the bottom of their
+ deck.",1
+SSK-017,"Oh, My Land!: When you play this character, if
+ you have a location in play, draw a card.",1
+SSK-018,NA,0
+SSK-019,"Shift 2 (You may pay 2{i} to play this on top of one of
+your characters named Vanellope von Schweetz.)
+I HEREBY DECREE: Whenever you play another
+Princess character, all opposing characters get -1{s}
+until the start of your next turn.",1
+SSK-020,"Fan Favorite: Whenever you play a song, gain 1 lore.",1
+SSK-021,"I've Got The Coolest Friend: When you play 
+ this character, return a character card from your
+ discard to your hand. If that card is a Princess
+ character card, gain 2 lore.",1
+SSK-022,"If It Pleases The Lady: When you play this
+character, chosen opposing character gets -5 {s}
+until the start of your next turn.",1
+SSK-023,"Reindeer Games: When you play this character,
+ you may ready chosen character. They can't quest
+ or challenge for the rest of this turn.",1
+SSK-024,"Patch Them Up: Whenever this character quests,
+you may remove up to 2 damage from chosen
+character.",1
+SSK-035,"Shift 6 (You may pay 6{i} to play this on top of one of
+your characters named Maleficent.)
+Listen Well, All Of You: When you play this character,
+for each of your characters named Maleficent in play,
+return a chosen opposing character, item, or location
+with cost 3 or less to their player's hand.",1
+SSK-036,"Turning Tides: When you play this character,
+you may move up to 2 damage counters from
+chosen character to chosen opposing character.",1
+SSK-037,"Move It!: When you play this character,
+chosen character gains Rush this turn. (They can
+challenge the turn they're played.)",1
+SSK-038,"Give Me Time To Think: When you play this
+character and when he leaves play, look at the
+top 2 cards of your deck. Put one on the top of
+your deck and the other on the bottom.",1
+SSK-039,"Evasive (Only characters with Evasive can
+challenge this character.)",0
+SSK-040,"Evasive (Only characters with Evasive can
+challenge this character.)
+Parting Gift: When this character is banished,
+you may draw a card.",1
+SSK-041,"Unearthed: When you play this character, each
+opponent draws a card.",1
+SSK-042,"Recurring Gust: When this character is
+banished in a challenge, return this card to your
+hand.",1
+SSK-043,NA,0
+SSK-044,"A Little Game: When you play this character, banish
+her or return another chosen character of yours to your
+hand.
+Sneaky Move: At the start of your turn, you may move
+up to 2 damage counters from this character to chosen
+opposing character.",1
+SSK-045,NA,0
+SSK-046,"Shift 4 (You may pay 4{i} to play this on top of
+one of your characters named Anna.)
+Exceptional Power: When you play this
+character, exert all opposing characters.",1
+SSK-047,"Shift 3 (You may pay 3{i} to play this on top of one of your
+characters named Archimedes.)
+Evasive (Only characters with Evasive can challenge this
+character.)
+Challenger +3 (While challenging, this character gets +3{s}.)",0
+SSK-048,"Rush (This character can challenge the turn they're played.)
+Evasive (Only characters with Evasive can challenge this
+character.)
+Crystallize: When you play this character, exert chosen
+opposing character.",1
+SSK-049,"Phenomenal Showman: While this character is
+exerted, opposing characters can't ready at the
+start of their turn.",1
+SSK-050,"Clear The Path: For each exerted character
+opponents have in play, you pay 1{i} less to
+play this character.
+Evasive (Only characters with Evasive can
+challenge this character.)",1
+SSK-051,"What An Awkward Situation: Whenever this
+character quests, you may choose and discard a
+card to return chosen character, item, or location
+with cost 3 or less to their player's hand.",1
+SSK-052,NA,0
+SSK-053,"Playing With Power: During opponents' turns,
+if an effect would cause you to discard one or
+more cards from your hand, you don't discard.",1
+SSK-054,NA,0
+SSK-055,"Rush (This character con challenge the turn
+they're played.)
+Surprising Skill: When you play this character,
+he gains Challenger +4 this turn. (They get +4
+while challenging.)",1
+SSK-056,"Growing Powers: When you play this character,
+each opponent chooses and exerts one of their
+ready characters.",1
+SSK-057,"Pleasing The Queen: {e} - Chosen exerted
+character can't ready at the start of their next
+turn.",1
+SSK-058,"Imitate: Whenever this character quests, you
+may gain lore equal to the {l} of chosen other
+character of yours. Return that character to your
+hand.",1
+SSK-069,"Tag Me In!: For each 1 damage on opposing characters, you pay 1{i} less to play this character.
+Ward (Opponents can't choose this character except to challenge.)",1
+SSK-070,"Evasive (Only characters with Evasive can challenge this character.)
+Easy Pickings: While challenging a damaged character, this character gets +2{s}.",1
+SSK-071,NA,0
+SSK-072,"Evasive (Only characters with Evasive can
+challenge this character.)",0
+SSK-073,Silent Performance: This character can't {e} to sing songs.,1
+SSK-074,"Cause A Panic: When you play this character, you may deal 2 damage to chosen damaged character.",1
+SSK-075,"Fiddle Faddle: While being challenged, this character gets +2{s}.",1
+SSK-076,"Ray Of Hope: When you play this character, you
+may pay 1{i} to give chosen character +2 {s} this
+turn.",1
+SSK-077,"Trick Shot: When you play this character, if an
+opponent has a damaged character in play, gain 1
+lore.",1
+SSK-078,NA,0
+SSK-079,"Evasive (Only characters with Evasive can
+challenge this character.)
+In Disguise: Whenever this character quests,
+you pay 2{i} less for the next action you play this
+turn.",1
+SSK-080,NA,0
+SSK-081,"Rowdy Guest: Damaged characters can't
+challenge this character.",1
+SSK-082,"Evasive (Only characters with Evasive can
+challenge this character.)
+Do Say Hello To Mr. Arrow: When you play this character, you may pay 3{i} to banish chosen
+damaged character.",1
+SSK-083,"Slayer Of Dragons: When you play this character,
+banish chosen opposing Dragon character.
+Pressing The Advantage: Whenever he challenges
+a damaged character, ready this character after the
+challenge.",1
+SSK-084,"Shift 5 (You may pay 5{i} to play this on top of one
+of your characters named Clarabelle.)
+Keep In Step: At the end of your turn, if chosen
+opponent has more cards in their hand than you, you
+may draw cards until you have the same number.",1
+SSK-085,"Royal Resolution: When you play this character,
+you may pay 2{i} to choose one:
+• Each opponent chooses and discards a card.
+• Chosen character gets +2{s} this turn.
+• Banish chosen damaged character.",1
+SSK-086,"Butterfingers: When you play this character,
+you may pay 2{i}  to banish chosen item.",1
+SSK-087,"Here Kitty, Kitty, Kitty: When you play this
+character, you may exert chosen damaged
+character.",1
+SSK-088,"Shift 3 (You may pay 3{i} to play this on top of
+one of your characters named Robin Hood.)
+Clever Plan: This character gets +1{l} for each
+opposing damaged character in play.",1
+SSK-089,"Mother Knows Best: When you play this
+character, you may pay 3{i} to return chosen
+character to their player's hand.",1
+SSK-090,"One Step Behind: When you play this character,
+if an opponent has more cards in their hand than
+you, you may draw a card.",1
+SSK-091,"Stick Around For Dinner: This character gets +1{s}
+for each other Hyena character you have in play.
+What Have We Got Here: Whenever one of your
+Hyena characters challenges a damaged character,
+gain 2 lore.",1
+SSK-092,"Shift 4 (You may pay 4{i} to play this on top of
+one of your characters named Mother Gothel.)
+The World Is Dark: When you play this
+character, each opponent chooses one of their
+characters and returns that card to their hand.",1
+SSK-093,"Ward (Opponents can't choose this character
+except to challenge.)
+Life's not fair, is it?: Whenever one of your
+characters challenges a damaged character, you
+may draw a card.",1
+SSK-103,NA,0
+SSK-104,"Refreshing Break: Whenever you ready this character, gain 1 lore for each 1 damage on him.",1
+SSK-105,"Royally Big Rewards: At the end of your turn, if you have any characters in play with 5{s} or more, gain 2 lore. If you have any in play with 10{s} or more, gain 5 lore instead.",1
+SSK-106,"Rush (This character can challenge the turn they're played.)
+Game Jump: This character also counts as being named King Candy for Shift.",1
+SSK-107,"Shift 4 (You may pay 4{i} to play this on top of one of your characters named Donald Duck.)
+ Humble Pie: When you play this character, if you used Shift to play him, each opponent loses 2 lore.
+ Raging Duck: While an opponent has 10 or more lore, this character gets +6{s}",1
+SSK-108,NA,0
+SSK-109,"Long Live the King - When you play this character, you may banish chosen character named Mufasa.",1
+SSK-110,Rush (This character can challenge the turn they're played.),0
+SSK-111,Evasive (Only characters with Evasive can challenge this character.),0
+SSK-112,"Perfect Partners: While you have a character named Minnie Mouse in play, this character gets +2{s}.",1
+SSK-113,"Nothing Can Stand in My Way: While this character has damage, he gets +2{s}.",1
+SSK-114,"Showstopper: When you play this character, if you have a location in play, each opponent loses 1 lore.",1
+SSK-115,NA,0
+SSK-116,"Scram!: When you play this character, if you have another character named Pete in play, you may banish chosen opposing character.",1
+SSK-117,"Shift 2 (You may pay 2{i} to play this on top of one of your characters named Taffyta Muttonfudge.)
+New Roster: Once per turn, when this character moves to a location, gain 2 lore.",1
+SSK-118,"My Greatest Performance: Whenever this character quests, look at the top 4 cards of your deck. You my reveal an action card with cost 6 or less and play it for free. Put the rest in your discard.",1
+SSK-119,"A Man Among Men!: For each damaged character you have in play, you pay 2{i} less to play this character.
+Rush (This character can challenge the turn they're played.)",1
+SSK-120,NA,0
+SSK-121,Reckless (This character can't quest and must challenge each turn if able.),0
+SSK-122,"Plucky Play: Whenever this character challenges another character, each opponent loses 1 lore.",1
+SSK-123,"Shift 4 (You may pay 4{i} to play this on top of one of your characters named Ratigan.)
+ Evasive (Only characters with Evasive can challenge this character.)
+ Delightfully Wicked: Your damaged characters get +2{s}.",1
+SSK-124,"Rush (This character can challenge the turn they're played.)
+Pixlexia: When you play this character, she gains Evasive until the start of your next turn. (Only characters with Evasive can challenge them.)",1
+SSK-125,"I Laugh in the Face of Danger: When you play this character, chosen character gets +2{s} this turn.",1
+SSK-126,"Dance-Off: Whenever this character or one of your characters named Mickey Mouse challenges another character, gain 1 lore.",1
+SSK-137,NA,0
+SSK-138,NA,0
+SSK-139,Ward (Opponents can't choose this character except to challenge.),0
+SSK-140,NA,0
+SSK-141,"Taxes Never Fail Me: Whenever you play an item, this character gets +2{s} this turn.",1
+SSK-142,Long Live the King!: Your characters named Arthur gain Resist +1,1
+SSK-143,"Helpful Supplies: At the start of your turn, if you have an item in play, gain 1 lore.
+Perfect Directions: At the start of your turn, if you have a location in play, gain 1 lore.",1
+SSK-144,"Shift 3 (You may pay 3{i} to play this on top of one of your characters named The Queen.)
+Ward (Opponents can't choose this character except to challenge.)
+Reflections of Vanity: For each other character named The Queen you have in play, this character gets +1{l}.",1
+SSK-145,"Every Little Bit Helps: For each item you have in play, you pay 1{i} less to play this character.
+Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",1
+SSK-146,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)
+One on the Way: During your turn, when you put a card into your inkwell, if it's the second card you've put into your inkwell this turn, you may draw a card.",1
+SSK-147,"Beautiful, Lovely Taxes: {e} - Play an item from your hand or discard with cost 5 or less for free, exerted.",1
+SSK-148,"Ward (Opponents can't choose this character except to challenge.)
+Gatherer of the Wicked: When you play this character, look at the top 3 cards of your deck. You may reveal any number of character cards named The Queen and put them into your hand. Put the rest on the bottom of your deck in any order.",1
+SSK-149,"Outplacement: When you play this character, you may put chosen item or location into its player's inkwell facedown and exerted.
+By Invite Only: 4{i} - Your other characters gain Resist +1 until the start of your next turn. (Damage dealt to them is reduced by 1.)",1
+SSK-150,"A Delicate Balance: When you play this character, Exert all cards in your inkwell, then return 2 cards at random from your inkwell to your hand.
+Everything the Light Touches: Whenever this character quests, ready all cards in your inkwell.",1
+SSK-151,NA,0
+SSK-152,"Cake Catapult - When you play this character, chosen character gets -2{s} this turn.",1
+SSK-153,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+SSK-154,"Shift 3 (You may pay 3{i} to play this on top of one of your characters named King Candy.)
+Changing the Code: When you play this character, you may draw 2 cards, then put a card from your hand on the bottom of your deck.",1
+SSK-155,"Baffling Mystery: When you play this character, you may put the top card of your deck into your inkwell facedown and exerted.",1
+SSK-156,"Your Brothers Need Guidance: When you play this character, you may remove up to 1 damage from chosen character or location.",1
+SSK-157,"Measure Me Again: When you play this character, you may put a card from your hand into your inkwell facedown and exerted.",1
+SSK-158,"Ward (Opponents can't choose this character except to challenge.)
+Ushered into the Party: When you play this character, your other characters gain Ward until the start of your next turn.",1
+SSK-159,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Merlin.)
+Overdeveloped Brain: When you play this character, if you used Shift to play him, you may search your deck for any card, put that card into your hand, then shuffle your deck.",1
+SSK-171,"Heave Ho!: When you play this character, you may deal 2 damage to chosen character.",1
+SSK-172,"Challenger +7 (While challenging, this character gets +7{s}.)
+Intimidating Gaze: Opposing characters with cost 4 or less can't challenge.",1
+SSK-173,"Face the Past: During your turn, whenever this character banishes another character in a challenge, you may draw a card.",1
+SSK-174,NA,0
+SSK-175,NA,0
+SSK-176,Resist +1 (Damage dealt to this character is reduced by 1.),0
+SSK-177,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.),0
+SSK-178,"Challenger +1 (While challenging, this character gets +1{s}.)",0
+SSK-179,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.),0
+SSK-180,"Headwind: When you play this character, chosen knight character gains Challenger +2 this turn. (They get +2{s} when challenging.)",1
+SSK-181,"Stronger Together: When you play this character, if you have another Knight character in play, you may deal 1 damage to chosen character or location.",1
+SSK-182,"I Don't Have Any Other Choice: For each opposing character banished in a challenge this turn, you pay 2{i} less to play this character.
+Resist +3 (Damage dealt to this character is reduced by 3.)",1
+SSK-183,Natural Leader: This character gains Resist +1 for each other Knight character you have in play. (Damage dealt to this character is reduced by 1 for each other Knight.),1
+SSK-184,"I'm Warning You!: During your turn, whenever one of your characters banishes a character in a challenge, you may deal 1 damage to chosen character.",1
+SSK-185,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Kronk.)
+Are You on the List?: During your turn, whenever this character banishes another character in a challenge, you may play a character with cost 5 or less for free.",1
+SSK-186,"Boon of Resilience: While one of your Knight characters is at a location, that character gains Resist +2. (Damage dealt to them is reduced by 2.)
+Burst of Speed: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",1
+SSK-187,"Re-Pete: {e} - Reveal the top card of your deck. If it's a character card named Pete, you may play it for free.",1
+SSK-188,NA,0
+SSK-189,"Impress the Princess: While you have a character named Snow White in play, this character gains Bodyguard. (An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",1
+SSK-190,NA,0
+SSK-191,"Burst of Speed: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",1
+SSK-192,"Shift 4 (You may pay 4{i} to play this on top of one of your characters named Simba.)
+Fearsome Roar: When you play this character, you may banish chosen item or location.",1
+SSK-193,"Drastic Measures: When you play this character, you may discard your hand to draw 2 cards.",1
+SSK-194,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Arthur.)
+ Knighted by the King: When you play this character, chosen character gains Challenger +2 and Resist +2 and can challenge ready characters this turn. (They get +2{s} while challenging. Damage dealt to them is reduced by 2.)",1
+SSK-195,"Blow the Whistle: When you play this character, opponents can't play actions until the start of your next turn.",1
+TFC-001,Voiceless - This character can't {e} to sing songs.,1
+TFC-002,"Singer 5 (This character counts as cost 5 to sing songs.) 
+
+Musical Debut - When you play this character, look at the top 4 cards of your deck. You may reveal a song card and put it into your hand. Put the rest on the bottom of your deck in any order.",1
+TFC-003,"Singer 5 (This character counts as cost 5 to sing songs.) 
+
+A Wonderful Dream - {e} - Remove up to 3 damage from chosen Princess character.",1
+TFC-004,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+
+And Two For Tea! - When you play this character, you may remove up to 2 damage from each of your Musketeer characters.",1
+TFC-005,"Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Hades.) 
+
+Sinister Plot - This character gets +1 {l} for each other Villain character you have in play.",1
+TFC-006,"Well of Souls - When you play this character, return a character card from your discard to your hand.",1
+TFC-007,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+TFC-008,"Loyal - If you have a character named Gaston in play, you pay 1 {i} less to play this character.",1
+TFC-009,NA,0
+TFC-010,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+
+Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+TFC-011,"Horse Kick - When you play this character, chosen character gets -2 {s} this turn.",1
+TFC-012,NA,0
+TFC-013,NA,0
+TFC-014,"We Can Fix It - Whenever this character quests, you may ready your other Princess Characters. They can't quest for the rest of this turn.",1
+TFC-015,NA,0
+TFC-016,"Heroism - When this character challenges and is banished, you may banish the challenged character.",1
+TFC-017,NA,0
+TFC-018,"Gleam and Glow - When you play this character, remove up to 3 damage from one of your characters. Draw a card for each 1 damage removed this way.",1
+TFC-019,Singer 4 (This character counts as cost 4 to sing songs.),0
+TFC-020,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.),0
+TFC-021,"Ohana - When you play this character, if you have 2 or more other characters in play, you may draw 2 cards.",1
+TFC-022,NA,0
+TFC-023,"Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Stitch.) 
+
+Adoring Fans - Whenever you play a character with cost 2 or less, you may exert them to draw a card.",1
+TFC-024,"Tastes Like Chicken - When you play this character, you may remove up to 1 damage from chosen character.",1
+TFC-035,"Loving Heart - When you play this character, if you have a character named Elsa in play, choose an opposing character. The chosen character doesn't ready at the start of their next turn.",1
+TFC-036,NA,0
+TFC-037,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Dr. Facilier.) 
+
+Into The Shadows - Whenever one of your other characters is banished in a challenge, you may return that card to your hand.",1
+TFC-038,"Challenger +2 (When challenging, this character get +2 {s}.) ",1
+TFC-039,"Dreams Made Real - Whenever you play a song, you may look at the top 2 cards of your deck. Put one on the top of your deck and the other on the bottom.",1
+TFC-040,NA,0
+TFC-041,Freeze -{e} - Exert chosen opposing character.,1
+TFC-042,"Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Elsa.) 
+
+Deep Freeze - When you play this character, exert up to 2 chosen characters. They can't ready at the start of their next turn.",1
+TFC-043,"Rush (This character can challenge the turn they're played.) 
+
+Dexterous Lunge - Your characters named Jetsam gain Rush.",1
+TFC-044,Hidden Wonders - This character gets +1 {s} for each card in your hand.,1
+TFC-045,"Challenger +3 (When challenging, this character gets +3 {s}.) ",1
+TFC-046,"Evasive (Only characters with Evasive can challenge this character.) 
+
+Sinister Slither - Your characters named Flotsam gain Evasive.",1
+TFC-047,"Sweep - When you play this character, you may shuffle a card from any discard into its player's deck.",1
+TFC-048,NA,0
+TFC-049,"Cast My Spell! - When you play this character, you may draw a card.",1
+TFC-050,"Durable - When this character is banished in a challenge, you may return this card to your hand.",1
+TFC-051,"Animate Broom - You pay 1 {i} less to play Broom characters.
+
+Ceaseless Worker - Whenever one of your Broom characters is banished in a challenge, you may return that card to your hand.",1
+TFC-052,NA,0
+TFC-053,"Camouflage -  While you have another character in play, this character gains Evasive. (Only characters with Evasive can challenge them.)",1
+TFC-054,Rush (This character can challenge the turn they're played.) ,0
+TFC-055,NA,0
+TFC-056,I Summon Thee - {e} - Draw a card.,1
+TFC-057,NA,0
+TFC-058,"Evasive (Only characters with Evasive can challenge this character.) 
+ 
+ Loyal and Devoted - Your characters named Peter Pan gain Challenger +1.",1
+TFC-059,"It's Too Easy! - When you play this character, each opponent loses 1 lore. You may draw a card for each 1 lore lost this way.",1
+TFC-060,"You're Excused - Whenever this character quests, look at the top card of your deck. Put it on either the top or the bottom of your deck",1
+TFC-061,"Rush (This character can challenge the turn they're played.) 
+
+Challenger +4 (While challenging, this character get +4 {s}.) ",1
+TFC-069,Ward (Opponents can't choose this character except to challenge.) ,0
+TFC-070,"Rush (This character can challenge the turn they're played.) 
+
+Roar - When you play this character, exert all opposing damaged characters.",1
+TFC-071,"Lose Something? - When this character is challenged and banished, banish the challenging character.",1
+TFC-072,"You'll Be Sorry! - When this character is challenged and banished, you may return chosen character to their player's hand.",1
+TFC-073,NA,0
+TFC-074,"Here Comes The Smolder - Whenever this character is challenged, the challenging player chooses and discards a card.",1
+TFC-075,"Evasive (Only characters with Evasive can challenge this character.) 
+
+Disappear - When you play this character, you may return chosen character to their player's hand.",1
+TFC-076,"Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Genie.) 
+
+Evasive (Only characters with Evasive can challenge this character.) 
+
+Phenomenal Cosmic Power! - Whenever this character quests, you may play an action with cost 5 or less for free.",1
+TFC-077,NA,0
+TFC-078,NA,0
+TFC-079,NA,0
+TFC-080,You Got A Problem? - {e} - Chosen character gains Reckless during their next turn. (They can't quest and must challenge if able.),1
+TFC-081,"Puppynapping - Whenever this character quests, chosen opposing character can't quest during their next turn.",1
+TFC-082,"Pick Your Fights - When you play this character and whenever he quests, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)",1
+TFC-083,NA,0
+TFC-084,"Ward (Opponents can't choose this character except to challenge.) 
+
+No Touchy! - When this character is challenged and banished, you may banish the challenging character.",1
+TFC-085,"Do It Again! - When you play this character, you may return an action card from your discard to your hand.",1
+TFC-086,"Tea Party - Whenever this character is challenged, you may draw a card.",1
+TFC-087,"Wonder Boy - When you play this character, chosen character gets +2 {s} this turn.",1
+TFC-088,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Mickey Mouse.) 
+
+Misdirection - Whenever you play an action, chosen opposing character can't quest during their next turn.",1
+TFC-089,NA,0
+TFC-090,"Skip The Drama, Stay With Mama - While this character is exerted, opposing characters can't quest.",1
+TFC-091,Evasive (Only characters with Evasive can challenge this character.) ,0
+TFC-092,NA,0
+TFC-093,"Evasive (Only characters with Evasive can challenge this character.) 
+
+Pixie Dust - When you play this character, chosen character gains Evasive this turn.",1
+TFC-103,NA,0
+TFC-104,"Shift 5 (You may pay 5 {i} to play this on top of one of your characters named Aladdin.) 
+ 
+ Daring Exploit - During your turn, whenever this character banishes another character in a challenge, you gain 2 lore and each opponent loses 2 lore.",1
+TFC-105,"Improvise - When you play this character, each opponent loses 1 lore.",1
+TFC-106,NA,0
+TFC-107,"Rush (This character can challenge the turn they're played.) 
+
+You Coward! - While this character is exerted, opposing characters with Evasive gain Reckless. (They can't quest and must challenge if able.)",1
+TFC-108,NA,0
+TFC-109,"That's No Blizzard! - Whenever you play a character named Anna, ready this character. This character can't quest for the rest of this turn.",1
+TFC-110,Reckless (This character can't quest and must challenge each turn if able.) ,0
+TFC-111,Evasive (Only characters with Evasive can challenge this character.),0
+TFC-112,"Fan The Flames - When you play this character, ready chosen character. They can't quest for the rest of this turn.",1
+TFC-113,"Dragon Fire - When you play this character, you may banish chosen character.",1
+TFC-114,"Rush (This character can challenge the turn they're played.) 
+
+Reckless (This character can't quest and must challenge each turn if able.) ",0
+TFC-115,Evasive (Only characters with Evasive can challenge this character.),0
+TFC-116,NA,0
+TFC-117,"This Is Not Who You Are - When you play this character, you may banish chosen character named Te Ka.",1
+TFC-118,"Lead By Example - During your turn, whenever this character banishes another character in a challenge, your other characters get +1 {l} this turn.",1
+TFC-119,Rush (This character can challenge the turn they're played.) ,0
+TFC-120,Evasive (Only characters with Evasive can challenge this character.) ,0
+TFC-121,"Tangle - When you play this character, each opponent loses 1 lore.",1
+TFC-122,NA,0
+TFC-123,"Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Scar.) 
+
+Rousing Speech - When you play this character, ready your characters with cost 3 or less. They can't quest for the rest of this turn.",1
+TFC-124,NA,0
+TFC-125,NA,0
+TFC-126,Reckless (This character can't quest and must challenge each turn if able.) ,0
+TFC-127,Evasive (Only characters with Evasive can challenge this character.) ,0
+TFC-137,"Look At This Stuff - Whenever you play an item, you may ready this character.",1
+TFC-138,"Disarming Beauty - When you play this character, chosen character gets -2 {s} this turn.",1
+TFC-139,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Aurora.) 
+ 
+ Protective Embrace - Your other characters gain Ward. (Opponents can't choose them except to challenge.)",1
+TFC-140,NA,0
+TFC-141,"Tinker - Whenever this character quests, you pay 1 {i} less for the next item you play this turn.",1
+TFC-142,"Read A Book - During your turn, you may put an additional card from your hand into your inkwell facedown.
+
+My Favorite Part! - While you have 10 or more cards in your inkwell, this character gets +4 {l}.",1
+TFC-143,"Support (Whenever this character quests, you may add their {s} to another chosen character‘s {s} this turn.) ",0
+TFC-144,Ward (Opponents can't choose this character except to challenge.) ,0
+TFC-145,NA,0
+TFC-146,"I Will Be With You - When this character is banished, you may put this card into your inkwell facedown and exerted.",1
+TFC-147,"Is There A Downside To This? - When you play this character, you may put chosen opposing character into their player's inkwell facedown.",1
+TFC-148,NA,0
+TFC-149,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Jasmine.) 
+
+Caretaker - When you play this character and whenever she quests, you may remove up to 2 damage from each of your characters.",1
+TFC-150,NA,0
+TFC-151,NA,0
+TFC-152,"Give It A Try - Whenever this character quests, you pay 2 {i} less for the next item you play this turn.
+
+It Works! - Whenever you play an item, you may draw a card.",1
+TFC-153,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+TFC-154,"Get A Clue - When you play this character, you may put the top card of your deck into your inkwell facedown and exerted.",1
+TFC-155,NA,0
+TFC-156,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+TFC-157,"Feed The Poor - When you play this character, if an opponent has more cards in their hand than you, draw a card.
+ 
+ Good Shot - During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",1
+TFC-158,"Insidious Plot - When you play this character, chosen opposing character gets -5 {s} this turn.",1
+TFC-159,"What Have We Here? - When you play this character and whenever he quests, you may return an item card from your discard to your hand.
+
+Glam - This character gets +1 {l} for each item you have in play.",1
+TFC-160,NA,0
+TFC-171,NA,0
+TFC-172,"Break - When you play this character, you may banish chosen item.",1
+TFC-173,"Double The Powder - When you play this character, you may return an action card named Fire the Cannons! from your discard to your hand.",1
+TFC-174,"Challenger +2 (When challenging, this character gets +2 {s}.) ",1
+TFC-175,"Shift 3 (You may pay 3 {i} to play this on top of one of your characters named Captain Hook.) 
+
+Challenger +3 When challenging, this character get +3 {s}.) 
+
+Stolen Dust - Characters with cost 3 or less can't challenge this character.",1
+TFC-176,NA,0
+TFC-177,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.) 
+
+Stay Alert! - During your turn, your Musketeer characters gain Evasive. (They can challenge characters with Evasive.)",1
+TFC-178,Under Arrest - Characters with cost 2 or less can't challenge your characters.,1
+TFC-179,NA,0
+TFC-180,"Stage A Little Accident - Whenever this character quests, you may deal 1 damage to chosen character.",1
+TFC-181,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.),0
+TFC-182,NA,0
+TFC-183,NA,0
+TFC-184,NA,0
+TFC-185,NA,0
+TFC-186,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+
+All For One - Your other musketeer character get +1 {s}.",1
+TFC-187,"Challenger +2 (When challenging, this character get +2 {s}.) ",1
+TFC-188,"Guess What? - When you play this character, you may draw a card, then choose and discard a card.",1
+TFC-189,"Challenger +4 (While challenging, this character gets +4 {s}.)
+
+POUNCE: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",1
+TFC-190,"I Know What I Have To Do - During your turn, whenever this character banishes another character in a challenge, you gain 1 lore.",1
+TFC-191,"Aye Aye, Captain - While you have a Captain character in play, this character gets +1 {l}.",1
+TFC-192,"Seek The Heart - During your turn, whenever this character banishes another character in a challenge, you gain 2 lore.",1
+TFC-193,"Shift 4 (You may pay 4 {i} to play this on top of one of your characters named Tinker Bell.) 
+
+ROCK THE BOAT: When you play this character, deal 1 damage to each opposing character.
+
+Puny Pirate! - During your turn, whenever this character banishes another character in a challenge, you may deal 2 damage to chosen opposing character.",1
+TFC-194,"Battle Plans - {e} - Draw a card, then choose and discard a card.",1
+URS-001,NA,0
+URS-002,"To the Table - When you play this character, you may search your deck for a Madrigal character card and reveal that card to all players. Shuffle your deck and put that card on top of it.",1
+URS-003,Singer 7 (This character counts as cost 7 to sing songs.),0
+URS-004,"Singer 9 (This character counts as cost 9 to sing songs.)
+Beautiful Voice - Whenever this character sings a song, your other Princess characters get +1{l} this turn.",1
+URS-005,"As You Were! - Whenever this character quests, you may give chosen character -2{s} until the start of your next turn.",1
+URS-006,NA,0
+URS-007,"Infiltration - When you play this character, each opponent chooses and discards a card.",1
+URS-008,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+Wait For Me! - When you play this character, chosen character gets +1{l} this turn.",1
+URS-009,NA,0
+URS-010,Dubious Recruitment - {e}: You pay 2{i} less for the next character you play this turn.,1
+URS-011,"Stolen Away - At the end of your turn, if you didn't play a song this turn, banish this character",1
+URS-012,"En Gawrsh! - Whenever you play a character with Bodyguard, ready this character. He can't quest for the rest of this turn.",1
+URS-013,"Signature Recipe - When you play this character, you may remove up to 2 damage from chosen character. If you removed damage this way, you may draw a card.",1
+URS-014,"Here Boy - If you have a character named Prince Eric in play, you play 1{i} less to play this character.",1
+URS-015,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)
+Strike Up the Music - When you play this character, chosen character gains Support this turn.",1
+URS-016,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Mickey Mouse.)
+Bodyguard, Support
+Musketeers United - When you play this character, if you used Shift to play him, you may draw a card for each character with Bodyguard you have in play.",1
+URS-017,"Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.)
+Dramatic Entrance - When you play this character, banish chosen opposing character with 5{s} or more.",1
+URS-018,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)
+Saving the Miracle - Whenever this character quests, your other Madrigal characters ger +1{l} this turn.",1
+URS-019,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+URS-020,"To the Rescue - When you play this character, you may remove up to 3 damage from one of your characters.",1
+URS-021,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.),0
+URS-022,"Shift 4 (You may pay 4{i} to play this on top of one of your characters named Prince Eric.)
+Under Vanessa's Spell - While you have a character named Ursula in play, this character gains Bodyguard and gets +2{w}. (An opposing character who challenges one of your characters must choose one with Bodyguard if able.)",1
+URS-023,NA,0
+URS-024,"Shift: Discard a song card (You may discard a song card to play this on top of one of your characters named Ursula.)
+Vanessa's Design - Whenever this character quests, chosen opponent reveals their hand and discards a non-character card of your choice.",1
+URS-025,Singer 4 (This character counts as cost 4 to sing songs.),0
+URS-035,NA,0
+URS-036,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Belle.)
+Enhanced Healing - When you play this character, move up to 3 damage counters from chosen character to chosen opposing character.",1
+URS-037,"Here Now, Don't Do That - When you play this character, move up to 1 damage counter from chosen character to chosen opposing character.",1
+URS-038,"It Was Your Vision - When you play this character, chosen character gains ""When this character is banished in a challenge, you may return this card to your hand"" this turn.",1
+URS-039,"Evasive (Only characters with Evasive can challenge this character.)
+You Just Have to See It - {e}: Name a card, then reveal the top card of your deck. If it's the named card, put that card into your hand and gain 3 lore. Otherwise, put it on the top of your deck.",1
+URS-040,"Many Forms - At the start of your turn, you may choose one:
+- This character gets +1{l} this turn.
+- This character gains Challenger +2 this turn. (While challenging, this character gets +2{s}.)",1
+URS-041,"Magical Informant - When you play this character, if an opponent has an exerted character in play, you may draw a card.",1
+URS-042,Tempest - {e}: Chosen character gains Challenger +2 and Rush this turn. (They get +2{s} while challenging. They can challenge the turn they're played.),1
+URS-043,"Quick Escape - When this character is banished in a challenge, return this card to your hand.
+Ominous Pair - Your characters named Jetsam gain ""When this character is banished in a challenge, return this card to your hand.""",1
+URS-044,"Shift: Discard 2 cards (You may discard 2 cards to play this on top of one of your characters named Flotsam or Jetsam.)
+(This character counts as being named both Flotsam and Jetsam.)",1
+URS-045,"Evasive (Only characters with Evasive can challenge this character.)
+Ladies First - During your turn, if no other character has quested this turn, this character gets +3{l}.
+Leave it to me - Whenever this character quests, your other characters can't quest for the rest of this turn.",1
+URS-046,"Challenger +2 (While challenging, this character gets +2{s}.)
+Ominous Pair - Your characters named Flotsam gain Challenger +2.",1
+URS-047,Rush (This character can challenge the turn they're played.),0
+URS-048,"Nice and Tidy - Whenever you play another character, you may banish this character to draw a card.",1
+URS-049,NA,0
+URS-050,NA,0
+URS-051,Behemoth - This character gets +1{s} for each card in your hand.,1
+URS-052,"It'll Turn Out All Right - When you play this character, if you have a character named Lumiere or Cogsworth in play, you may draw a card.",1
+URS-053,"It Looks Like rain - When you play this character, you may exert chosen opposing character. That character can't ready at the start of their next turn unless they're at a location.",1
+URS-054,"Rush (This character can challenge the turn they're played.)
+Evasive (Only characters with Evasive can challenge this character.)
+Fly, of Course! - You other characters with Evasive gain Rush.",1
+URS-055,NA,0
+URS-056,Evasive (Only characters with Evasive can challenge this character.),0
+URS-057,"Challenger +2 (While challenging, this character gets +2{s}.)",0
+URS-058,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Ursula.)
+Now I am the Ruler! - Whenever this character quests, exert chosen character.
+You'll Listen to Me! - Other characters can't exert to sing songs.",1
+URS-059,"Timely Intervention - When you play this character, if you have a character named Magic Broom in play, you may draw a card.
+Arcane Study - While you have 2 or more Broom characters in play, this character gets +2{l}.",1
+URS-069,"Spreading Good Fortune - When you play this character, your other characters get +3{s} this turn.",1
+URS-070,"Shift: Discard an action card (You may discard an action card to play this on top of one of your characters named Diablo.)
+Evasive (Only characters with Evasive can challenge this character.)
+Circle Far and Wide - During each opponent's turn, whenever they draw a card while this character is exerted, you may draw a card.",1
+URS-071,"Scout Ahead - When you play this character, you may look at each opponent's hand.",1
+URS-072,"Sad-Eyed Puppy - When this character is challenged and banished, each opponent chooses one of their characters and returns that card to their hand.",1
+URS-073,NA,0
+URS-074,"Here's the Trade-Off - {e}, Banish one of your other characters: Play a character with the same name as the banished character for free.",1
+URS-075,"Fatten You Up - When you play this character, if an opponent has more cards in their inkwell than you, you may put the top card of your deck into your inkwell facedown and exerted.",1
+URS-076,"Ward (Opponents can't choose this character except to challenge.)
+Protective Goddess - Your characters named Zeus gain Ward.
+You're a True Hero - Your characters named Hercules gain Evasive. (Only characters with Evasive can challenge them.)",1
+URS-077,"Sneaky Idea - When you play this character, chosen opposing character gains Reckless during their next turn. (They can't quest and must challenge if able.)",1
+URS-078,"Cunning Maneuver - When you play this character and whenever she's challenged, each opponent chooses and discards a card.",1
+URS-079,"Shady Deal - When you play this character, choose and discard a card or banish this character.",1
+URS-080,"Ward (Opponents can't choose this character except to challenge.)
+People Always Do Crazy Things - Whenever you play a character named Hercules, You may ready this character.",1
+URS-081,NA,0
+URS-082,"Reporting for Duty - While this character is exerted, if you have a character named pain in play, your Villain characters can't be challenged.",1
+URS-083,"Shift 3 (You may pay 3{i} to play this on top of one of your characters named Pegasus.)
+Evasive (Only characters with Evasive can challenge this character.)
+Hop On! - When you play this character, if you used Shift to play him, your characters gain Evasive until the start of your next turn.",1
+URS-084,Evasive (Only characters with Evasive can challenge this character.),0
+URS-085,"I Clobber You! - Whenever this character quests while he has 5{s} or more, return chosen character with 2{s} or less to their player's hand.",1
+URS-086,NA,0
+URS-087,"Shift 6 (You may pay 6{i} to play this on top of one of your characters named Prince Philip.)
+Evasive (Only characters with Evasive can challenge this character.)
+Swift and Sure - When you play this character, banish all opposing damaged characters.",1
+URS-088,Shining Beacon. You other Hero characters gain Ward. (Opponents can't choose them except to challenge.),1
+URS-089,"All Will Be Seen - When you play this character, look at the top card of each opponent's deck.",1
+URS-090,"Ward (Opponents can't choose this character except to challenge.)
+The Gospel Truth - Whenever you play a song, you may return chosen character with 2{s} or less to their player's hand.",1
+URS-091,NA,0
+URS-092,"Target Practice - Whenever a this character challenges another character, he gets +{s} equal to the {s} of chosen character this turn.",1
+URS-103,That Hurts!: This character enters play with 4 damage.,1
+URS-104,NA,0
+URS-105,"War Injury: This character can't challenge.
+Head of The Household: {e} - Ready chosen character named Mulan. She can't quest for the rest of this turn.",1
+URS-106,"Narrow Advantage: At the start of your turn, if you have a character in play with more {s} than each opposing character, gain 3 lore.",1
+URS-107,"Rush (This character can challenge the turn they're played.)
+Super Peanut Powers: Whenever this character challenges another character, gain 2 lore.",1
+URS-108,"Rush (This character can challenge the turn they're played.)
+",0
+URS-109,"Rush (This character can challenge the turn they're played.)
+Reckless (This character can't quest and must challenge each turn if able.)",0
+URS-110,NA,0
+URS-111,NA,0
+URS-112,"Shift: Discard a character card (You may discard a character card to play this on top of one of your characters name Li Shang.)
+Lead the Charge: Your characters with 4{s} or more get +1{l}.",1
+URS-113,Fervent Address: Your other characters get +1{s}.,1
+URS-114,"Shift 5 (You may pay 5{i} to play this on top of one of your characters named Mulan.)
+Straight Shooter: When you play this character, if you used Shift to play her, she gets +3{s} this turn.
+Triple Shot: During your turn, whenever this character deals damage to another character in a challenge, deal the same amount of damage to up to 2 other chosen characters.",1
+URS-115,"Time To Shine: Whenever you play an action, this character gets +2{s} this turn.",1
+URS-116,Battle Wound - This character enters play with 2 damage.,1
+URS-117,"Two-Weapon Fighting: During your turn, whenever this character deals damage to another  character in a challenge, you may deal the same amount of damage to another chosen character.",1
+URS-118,NA,0
+URS-119,"Fancy Footwork: Whenever you play an action, this character takes no damage from challenge this turn.",1
+URS-120,Evasive (Only characters with Evasive can challenge this character.),0
+URS-121,"Don't Cross Me: Whenever this character challenges another character, gain 1 lore for each other damaged character you have in play.",1
+URS-122,"We Have Come Together: When you play this character, ready chosen character of yours at a  location. They can't quest for the rest of this turn.",1
+URS-123,"Evasive (Only characters with Evasive can challenge this character.)
+Bring On The Heat!: When you play this character, banish chosen opposing character with 1{s} or less.",1
+URS-124,Surge of Power: This character gets +1{s} for each card in opponents' hands.,1
+URS-125,"Shift 6 (You may pay 6{i} to play this on top of one of your characters named Sisu.)
+I Got This!: When you play this character, banish all opposing characters with 2{s} or less.",1
+URS-126,Reckless (This character can't quest and must attack each turn if able.),1
+URS-127,"Evasive (Only characters with Evasive can challenge this character.)
+On a Roll: When you play this character, you may move him and one of your other characters to the same location for free. The other characters get +2{s} this turn.",1
+URS-137,"I Was Born Ready: If you have another Hero character in play, this character gets +1{l}.",1
+URS-138,"Let Me Help You: Whenever this character quests, your other Hero characters get +1{l} this turn.",1
+URS-139,"Ward (Opponents can't choose this character except to challenge.)
+The Girl Who Has Everything: While you have more items in play than each opponent, this character gets +2{l}.",1
+URS-140,"Shift 2 (You may pay 2 {i} to play this on top of one of your characters named Aurora.)
+Preserver: Opponents can't choose your items for abilities or effects.
+Royal Inventory: {e} one of your items - Look at the top card of your deck and put it on either the top or the bottom of your deck.",1
+URS-141,Ward (Opponents can't choose this character except to challenge.),0
+URS-142,"You Better Talk Fast: Your other Villain characters gain Support. (Whenever they quest, you may add their {s} to another chosen character's {s} this turn.)",1
+URS-143,NA,0
+URS-144,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)
+I'm Not a Guppy: If you have a character named Ariel in play, you may pay 1 {i} less to play this character.",1
+URS-145,NA,0
+URS-146,"Royal Schemes: When you play this character, if a Princess or Queen character is in play, gain 1 lore.",1
+URS-147,"Enduring Love: When this character is banished, you may put this card into your inkwell facedown and exerted.",1
+URS-148,NA,0
+URS-149,"Shift: Discard an item card (You may discard an item card to play this on top of one of your characters named Olaf.)
+Carrots All Around!: Whenever he quests, each of your other characters gets +{s} equal to this character's {s} this turn.",1
+URS-150,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)",0
+URS-151,"Colorful Tactics: When you play this character, look at the top 3 cards of your deck and put them back in any order.",1
+URS-152,"Support (Whenever this character quests, you may add their {s} to another chosen character's {s} this turn.)
+Best Defense: Whenever one of your characters is chosen for Support, they gain Resist +1 this turn. (Damage dealt to them is reduced by 1.)",1
+URS-153,"Perceptive Partner: While you have a character named Pascal in play, this character gains Ward. (Opponents can't choose them except to challenge.)",1
+URS-154,"let Me See: When you play this character, look at the top 4 cards of your deck. You may reveal an item card and put it into your hand. Put the rest on the bottom of your deck in any order.",1
+URS-155,NA,0
+URS-156,"Consult the Spellbook: {e} - Look at the top 4 cards of your deck. You may reveal an item card and put it into your hand. If that item costs 3 or less, you may play it for free instead and it enters play exerted. Put the rest on the bottom of your deck in any order.",1
+URS-157,"A Culinary Masterpiece: When you play this character, remove up to 2 damage from chosen character.",1
+URS-158,"Shift 6 (You may pay 6 {i} to play this on top of one of your characters named Triton.)
+Imposing Presence: Opposing characters get -1 {s} for each location you have in play.",1
+URS-159,"Consign to the Depths: {e}, Banish one of your items - Gain 3 lore.",1
+URS-160,"Superior Swimmer: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)
+Keeper of Atlantica: Whenever one of your locations is banished, you may put that card into your inkwell facedown and exerted.",1
+URS-161,NA,0
+URS-171,"Shift: Discard a location card (You may discard a location card to play this on top of one of your characters named Aladdin.)
+Crashing Though: Whenever this character quests, you may banish chosen item.",1
+URS-172,NA,0
+URS-173,NA,0
+URS-174,"I Want More: Whenever you play a song, you may draw a card, then choose and discard a card.",1
+URS-175,"Shift 4 (You may pay 4{i} to play this on top of one of your characters named Ariel.)
+Amplified Voice: Whenever you play a song, you may pay 2{i} to deal 3 damage to chosen character.",1
+URS-176,Resist +1 (Damage dealt to this character is reduced by 1.),0
+URS-177,"Overly Cautious: While this character has no damage, he gets +2{l}.",1
+URS-178,Bodyguard (This character may enter play exerted. An opposing character who challenges one of your characters must choose one with Bodyguard if able.),0
+URS-179,"Boarding Party: During your turn, whenever this character banishes a character in a challenge, your other characters get +1 {l} this turn.",1
+URS-180,"Bodyguard (This character may enter play exerted. An opposing character who challenges on of your characters must chose one with Bodyguard if able.)
+Resist +1 (Damage dealt to this character is reduced by 1)",1
+URS-181,"I Learned From the Best: During your turn, you may play this character for free if an opposing character was banished in a challenge this turn.",1
+URS-182,NA,0
+URS-183,Full of Spirit: Your Hero characters get +1{s}.,1
+URS-184,"I'm the Strong One: While you have another character in play, this character gets +2{s}.",1
+URS-185,"Winged for a Day: During your turn, this character gains Evasive. (They can challenge characters with Evasive.)",1
+URS-186,"Resist +1 (Damage dealt to this character is reduced by 1.)
+Army of Brooms: This character gets +2{s} for each other character named Magic Broom you have in play",1
+URS-187,"Shift 3 (You may pay 3{i} to play this on top of one of your characters named Mickey Mouse.)
+Resist +1 (Damage dealt to this character is reduced by 1.)
+Sweep Away: When you play this character, deal damage to chosen character equal to the number of Broom characters you have in play.",1
+URS-188,"Stand Strong: When you play this character, chosen character gains Challenger +2 this turn. (They gain +2{s} while challenging.)",1
+URS-189,NA,0
+URS-190,"You Gotta Stay Focused: Your Hero characters gain Challenger +1 (They get +1{s} while challenging)
+Shameless Promoter: Whenever you play a Hero character, gain 1 lore.",1
+URS-191,"Resist +1 (Damage dealt to this character is reduced by 1.)
+Not So Small Anymore: While you have no cards in your hand, this character can challenge ready characters.",1
+URS-192,"Steady Gaze: While you have no cards in your hand, characters with cost 4 or less can't  challenge this character.",1
+URS-193,"Challenger +2 (While challenging, this character gets +2{s}.)
+Resist +2 (Damage dealt to this character is reduced by 2.)
+You Gave it Your Best: During your turn, whenever this character banishes another character in a challenge, you may draw a card.",1
+URS-194,"Challenger +2 (While challenging, this character gets +2{s})",0
